@@ -1,8 +1,5 @@
-<<<<<<< Updated upstream
 # Form implementation generated from reading ui file 'D:\PYCHARM PROJECT\PycharmProjects\FINAL\ui\LoginWindow\LoginWindow.ui'
-=======
 # Form implementation generated from reading ui file 'D:\KTLT PROJECT FINAL\ProjectKTLT\ui\LoginWindow.ui'
->>>>>>> Stashed changes
 #
 # Created by: PyQt6 UI code generator 6.7.1
 #
