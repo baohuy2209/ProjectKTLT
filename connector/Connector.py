@@ -1,1 +1,0 @@
-print("Connect to database")
