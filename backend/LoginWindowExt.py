@@ -11,5 +11,3 @@ class LoginWindowExt(Ui_MainWindow):
         self.MainWindow=MainWindow
     def show(self):
         self.MainWindow.show()
-
-

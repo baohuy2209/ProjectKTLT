@@ -1,5 +1,4 @@
 from PyQt6.QtWidgets import QApplication, QMainWindow
-
 from backend.LoginWindowExt import LoginWindowExt
 
 app=QApplication([])
