@@ -30,7 +30,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>C:/Users/Administrator/Downloads/ĐĂNG NHẬP QTDES.png</pixmap>
+     <pixmap>../assets/image/LoginWIndow.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -136,7 +136,7 @@ QPushButton:hover {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/Administrator/Downloads/Continue.png</normaloff>C:/Users/Administrator/Downloads/Continue.png</iconset>
+      <normaloff>../assets/icons/Continue.png</normaloff>../assets/icons/Continue.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -197,7 +197,7 @@ QPushButton:hover {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/Administrator/Downloads/I forgot my password.png</normaloff>C:/Users/Administrator/Downloads/I forgot my password.png</iconset>
+      <normaloff>../assets/icons/I forgot my password.png</normaloff>../assets/icons/I forgot my password.png</iconset>
     </property>
     <property name="iconSize">
      <size>
@@ -232,7 +232,7 @@ QPushButton:hover {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>C:/Users/Administrator/Downloads/Sign Up.png</normaloff>C:/Users/Administrator/Downloads/Sign Up.png</iconset>
+      <normaloff>../assets/icons/Sign Up.png</normaloff>../assets/icons/Sign Up.png</iconset>
     </property>
     <property name="iconSize">
      <size>
