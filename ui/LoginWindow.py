@@ -52,7 +52,7 @@ class Ui_MainWindow(object):
         self.lineEditPassWord.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.lineEditPassWord.setObjectName("lineEditPassWord")
         self.pushButtonLogin = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonLogin.setGeometry(QtCore.QRect(570, 520, 301, 51))
+        self.pushButtonLogin.setGeometry(QtCore.QRect(570, 530, 301, 31))
         self.pushButtonLogin.setMinimumSize(QtCore.QSize(100, 30))
         self.pushButtonLogin.setSizeIncrement(QtCore.QSize(0, 0))
         self.pushButtonLogin.setLayoutDirection(QtCore.Qt.LayoutDirection.LeftToRight)
@@ -68,9 +68,9 @@ class Ui_MainWindow(object):
 "")
         self.pushButtonLogin.setText("")
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap("C:/Users/Administrator/Downloads/LOGIN.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("C:/Users/Administrator/Downloads/Continue.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButtonLogin.setIcon(icon)
-        self.pushButtonLogin.setIconSize(QtCore.QSize(250, 301))
+        self.pushButtonLogin.setIconSize(QtCore.QSize(300, 301))
         self.pushButtonLogin.setAutoRepeatDelay(100)
         self.pushButtonLogin.setObjectName("pushButtonLogin")
         self.checkBoxSavePassword = QtWidgets.QCheckBox(parent=self.centralwidget)
@@ -101,7 +101,7 @@ class Ui_MainWindow(object):
         self.pushButtonForgotPassword.setIconSize(QtCore.QSize(150, 100))
         self.pushButtonForgotPassword.setObjectName("pushButtonForgotPassword")
         self.pushButtonSignUp = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonSignUp.setGeometry(QtCore.QRect(740, 630, 81, 21))
+        self.pushButtonSignUp.setGeometry(QtCore.QRect(750, 630, 61, 20))
         self.pushButtonSignUp.setStyleSheet("QPushButton {\n"
 "    background-color: transparent; /* Làm nền trong suốt */\n"
 "    border: none;                 /* Loại bỏ viền */\n"
