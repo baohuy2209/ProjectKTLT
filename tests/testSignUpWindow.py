@@ -1,9 +1,9 @@
 from PyQt6.QtWidgets import QApplication, QMainWindow
 
-from backend.LoginWindowExt import LoginWindowExt
+from backend.SignUpWindowExt import SignUpWindowExt
 
 app=QApplication([])
-myWindow= LoginWindowExt()
+myWindow= SignUpWindowExt()
 myWindow.setupUi(QMainWindow())
 myWindow.show()
 app.exec()

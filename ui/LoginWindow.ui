@@ -6,128 +6,270 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1193</width>
-    <height>834</height>
+    <width>1209</width>
+    <height>857</height>
    </rect>
   </property>
   <property name="windowTitle">
    <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QLabel" name="label">
+   <widget class="QLabel" name="LoginWindowBackground">
     <property name="geometry">
      <rect>
-      <x>11</x>
-      <y>11</y>
-      <width>1171</width>
-      <height>761</height>
+      <x>10</x>
+      <y>0</y>
+      <width>1201</width>
+      <height>811</height>
      </rect>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../assets/image/LoginWIndow.png</pixmap>
+     <pixmap>../assets/image/BG LOGIN FINAL.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
+    </property>
+    <property name="wordWrap">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>210</y>
+      <width>441</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border-radius: 20px;  /* Bo góc tròn 10px */
+border: 0px solid black;  /* Viền màu đen dày 2px */
+background-color: rgb(255, 255, 255);
+
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonLogin">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>210</y>
+      <width>181</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    color: white;  /* Màu chữ */
+    font-size: 18px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/LOGIN BUTTON.png</normaloff>../assets/icons/LOGIN BUTTON.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>175</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonEmployeeAccount">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>220</y>
+      <width>261</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    color: white;  /* Màu chữ */
+    font-size: 18px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Employee account.png</normaloff>../assets/icons/Employee account.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>250</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelUsername">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>290</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nirmala UI</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="midLineWidth">
+     <number>0</number>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/icons/User Name.jpg</pixmap>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEditUserName">
     <property name="geometry">
      <rect>
       <x>570</x>
-      <y>350</y>
-      <width>301</width>
+      <y>330</y>
+      <width>411</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;  /* Bo góc 15px */
+    border: 2px solid gray;  /* Viền xám */
+    padding: 5px;  /* Giúp chữ không bị dính vào viền */
+    background-color: white;
+    font-size: 16px;
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="labelPassword">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>390</y>
+      <width>141</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nirmala UI</family>
+      <pointsize>14</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: rgb(0, 0, 127);</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/icons/Password.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditPassword">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>430</y>
+      <width>411</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border-radius: 15px;  /* Bo góc 15px */
+    border: 2px solid gray;  /* Viền xám */
+    padding: 5px;  /* Giúp chữ không bị dính vào viền */
+    background-color: white;
+    font-size: 16px;
+}
+</string>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBoxSavePassword">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>480</y>
+      <width>171</width>
       <height>31</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <italic>true</italic>
+      <family>Nirmala UI</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <italic>false</italic>
+      <bold>false</bold>
+      <strikeout>false</strikeout>
+      <kerning>true</kerning>
      </font>
     </property>
     <property name="styleSheet">
-     <string notr="true">QLineEdit {
-    border: 2px solid #3498db; /* Màu viền */
-    border-radius: 10px;      /* Độ bo góc */
-    padding: 5px;            /* Khoảng cách giữa chữ và viền */
-    background-color: #ffffff; /* Màu nền */
-    color: #000000;          /* Màu chữ */
-}
-</string>
+     <string notr="true">color: rgb(0, 0, 127);
+border-color: rgb(85, 85, 85);</string>
     </property>
-    <property name="placeholderText">
-     <string>Enter your username</string>
+    <property name="text">
+     <string>Save password</string>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEditPassWord">
+   <widget class="QPushButton" name="pushButtonContinue">
     <property name="geometry">
      <rect>
       <x>570</x>
-      <y>450</y>
-      <width>301</width>
-      <height>31</height>
+      <y>520</y>
+      <width>421</width>
+      <height>51</height>
      </rect>
-    </property>
-    <property name="font">
-     <font>
-      <italic>true</italic>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QLineEdit {
-    border: 2px solid #3498db; /* Màu viền */
-    border-radius: 10px;      /* Độ bo góc */
-    padding: 5px;            /* Khoảng cách giữa chữ và viền */
-    background-color: #ffffff; /* Màu nền */
-    color: #000000;          /* Màu chữ */
-}
-</string>
-    </property>
-    <property name="echoMode">
-     <enum>QLineEdit::Password</enum>
-    </property>
-    <property name="placeholderText">
-     <string>Enter your password</string>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButtonLogin">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>530</y>
-      <width>301</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="minimumSize">
-     <size>
-      <width>100</width>
-      <height>30</height>
-     </size>
-    </property>
-    <property name="sizeIncrement">
-     <size>
-      <width>0</width>
-      <height>0</height>
-     </size>
-    </property>
-    <property name="layoutDirection">
-     <enum>Qt::LeftToRight</enum>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-    background-color: transparent; /* Làm nền trong suốt */
-    border: none;                 /* Loại bỏ viền */
-    color: #000000;               /* Màu chữ (nếu có chữ) */
-}
-
-QPushButton:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Hiệu ứng hover nhẹ */
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    color: white;  /* Màu chữ */
+    font-size: 18px;
 }
 </string>
     </property>
@@ -140,55 +282,79 @@ QPushButton:hover {
     </property>
     <property name="iconSize">
      <size>
-      <width>300</width>
-      <height>301</height>
+      <width>400</width>
+      <height>50</height>
      </size>
     </property>
-    <property name="autoRepeatDelay">
-     <number>100</number>
-    </property>
    </widget>
-   <widget class="QCheckBox" name="checkBoxSavePassword">
+   <widget class="QLabel" name="label_2">
     <property name="geometry">
      <rect>
-      <x>580</x>
-      <y>490</y>
-      <width>151</width>
-      <height>21</height>
+      <x>570</x>
+      <y>620</y>
+      <width>261</width>
+      <height>41</height>
      </rect>
     </property>
     <property name="font">
      <font>
-      <family>Myanmar Text</family>
-      <weight>75</weight>
-      <bold>true</bold>
+      <family>Nirmala UI</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
      </font>
     </property>
     <property name="text">
-     <string>Keep Me Logged In</string>
+     <string/>
     </property>
-    <property name="checked">
-     <bool>true</bool>
+    <property name="pixmap">
+     <pixmap>../assets/icons/Don't have.jpg</pixmap>
     </property>
    </widget>
-   <widget class="QPushButton" name="pushButtonForgotPassword">
+   <widget class="QLabel" name="label_3">
     <property name="geometry">
      <rect>
       <x>570</x>
-      <y>590</y>
+      <y>660</y>
       <width>171</width>
       <height>31</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Nirmala UI</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/icons/I accept.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonTermsAndConditions">
+    <property name="geometry">
+     <rect>
+      <x>740</x>
+      <y>660</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-    background-color: transparent; /* Làm nền trong suốt */
-    border: none;                 /* Loại bỏ viền */
-    color: #000000;               /* Màu chữ (nếu có chữ) */
-}
-
-QPushButton:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Hiệu ứng hover nhẹ */
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    font-size: 18px;
+	color: rgb(13, 169, 200);
 }
 </string>
     </property>
@@ -197,33 +363,96 @@ QPushButton:hover {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../assets/icons/I forgot my password.png</normaloff>../assets/icons/I forgot my password.png</iconset>
+      <normaloff>../assets/icons/Terms and Conditions.jpg</normaloff>../assets/icons/Terms and Conditions.jpg</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>150</width>
-      <height>100</height>
+      <width>300</width>
+      <height>200</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>950</x>
+      <y>660</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nirmala UI</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/icons/and.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPrivacyStatement">
+    <property name="geometry">
+     <rect>
+      <x>570</x>
+      <y>690</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    font-size: 18px;
+	color: rgb(13, 169, 200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Privacy Statement.jpg</normaloff>../assets/icons/Privacy Statement.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
      </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonSignUp">
     <property name="geometry">
      <rect>
-      <x>750</x>
-      <y>630</y>
-      <width>61</width>
-      <height>20</height>
+      <x>810</x>
+      <y>620</y>
+      <width>91</width>
+      <height>31</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
     </property>
     <property name="styleSheet">
      <string notr="true">QPushButton {
-    background-color: transparent; /* Làm nền trong suốt */
-    border: none;                 /* Loại bỏ viền */
-    color: #000000;               /* Màu chữ (nếu có chữ) */
-}
-
-QPushButton:hover {
-    background-color: rgba(0, 0, 0, 0.1); /* Hiệu ứng hover nhẹ */
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    font-size: 18px;
+	color: rgb(13, 169, 200);
 }
 </string>
     </property>
@@ -232,12 +461,145 @@ QPushButton:hover {
     </property>
     <property name="icon">
      <iconset>
-      <normaloff>../assets/icons/Sign Up.png</normaloff>../assets/icons/Sign Up.png</iconset>
+      <normaloff>../assets/icons/Sign Up.jpg</normaloff>../assets/icons/Sign Up.jpg</iconset>
     </property>
     <property name="iconSize">
      <size>
-      <width>50</width>
+      <width>200</width>
+      <height>200</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonIForgotMyPassword">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>580</y>
+      <width>221</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    font-size: 18px;
+	color: rgb(13, 169, 200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/I forgot my password.jpg</normaloff>../assets/icons/I forgot my password.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>400</width>
       <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMail">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>560</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    color: white;  /* Màu chữ */
+    font-size: 18px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/MAIL.png</normaloff>../assets/icons/MAIL.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>400</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPhone">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>640</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    color: white;  /* Màu chữ */
+    font-size: 18px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/PHONE.png</normaloff>../assets/icons/PHONE.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>400</width>
+      <height>50</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonFacebook">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>720</y>
+      <width>61</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    color: white;  /* Màu chữ */
+    font-size: 18px;
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/facebook-logo.png</normaloff>../assets/icons/facebook-logo.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>400</width>
+      <height>50</height>
      </size>
     </property>
    </widget>
@@ -247,7 +609,7 @@ QPushButton:hover {
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1193</width>
+     <width>1209</width>
      <height>26</height>
     </rect>
    </property>

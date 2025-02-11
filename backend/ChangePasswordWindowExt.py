@@ -1,7 +1,7 @@
-from ui.LoginWindow import Ui_MainWindow
+from ui.ChangePasswordWindow import Ui_MainWindow
 
 
-class LoginWindowExt(Ui_MainWindow):
+class ChangePasswordWindowExt(Ui_MainWindow):
     def __init__(self):
         pass
     def setupUi(self, MainWindow):
