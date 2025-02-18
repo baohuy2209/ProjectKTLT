@@ -113,6 +113,7 @@ class Ui_MainWindow(object):
 "    font-size: 16px;\n"
 "}\n"
 "")
+        self.lineEditPassword.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.lineEditPassword.setObjectName("lineEditPassword")
         self.checkBoxSavePassword = QtWidgets.QCheckBox(parent=self.centralwidget)
         self.checkBoxSavePassword.setGeometry(QtCore.QRect(570, 480, 171, 31))
