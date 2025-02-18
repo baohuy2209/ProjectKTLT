@@ -78,7 +78,7 @@ class SignUpWindowExt(Ui_MainWindow):
                     # The free services which vip will be served
                     free_services = []
                     vip_customer = CustomerVIP(userid=new_user_id, name=name, username=username, password=password,
-                                                 email=email_sign_up, phone=phone_sign_up, address=address, role="Customer",
+                                                 email=email_sign_up, phone=phone_sign_up, address=address, role="Customer",loyalty_points=loyalty_point, customer_type=type_customer,
                                                  free_services=free_services)
                     new_user = vip_customer.__dict__
                 case _:
