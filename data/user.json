@@ -41,5 +41,33 @@
         "work_shift": "Thursday, Saturday, Sunday",
         "hired_date": "2025/02/10",
         "customer_id": "cust1"
+    },
+    {
+        "userid": "user4",
+        "name": "Nguyen Bao Trang ",
+        "username": "baotrang12",
+        "password": "123456",
+        "email": "baotrang12@gmail.com",
+        "phone": "0348403449",
+        "address": "Dak Lak",
+        "role": "Customer",
+        "loyalty_points": 0,
+        "customer_type": "Trial",
+        "trial_duration": 2,
+        "service_limitations": []
+    },
+    {
+        "userid": "user5",
+        "name": "Nguyen Hai Ly",
+        "username": "haily30",
+        "password": "123456",
+        "email": "haily@gmail.com",
+        "phone": "0347845504",
+        "address": "Binh Dinh",
+        "role": "Customer",
+        "loyalty_points": 0,
+        "customer_type": "Standard",
+        "reward_points": 0,
+        "discount_rate": 0
     }
 ]

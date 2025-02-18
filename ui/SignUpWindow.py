@@ -18,7 +18,7 @@ class Ui_MainWindow(object):
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
         self.label.setGeometry(QtCore.QRect(0, 0, 1211, 831))
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/image/BG SIGN UP.png"))
+        self.label.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/image/SIGN UP (NEW).png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.pushButtonMail = QtWidgets.QPushButton(parent=self.centralwidget)
@@ -66,9 +66,9 @@ class Ui_MainWindow(object):
         self.pushButtonFacebook.setIcon(icon2)
         self.pushButtonFacebook.setIconSize(QtCore.QSize(60, 60))
         self.pushButtonFacebook.setObjectName("pushButtonFacebook")
-        self.lineEditFirstName = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditFirstName.setGeometry(QtCore.QRect(320, 280, 251, 41))
-        self.lineEditFirstName.setStyleSheet("QLineEdit {\n"
+        self.lineEditName = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.lineEditName.setGeometry(QtCore.QRect(320, 250, 251, 41))
+        self.lineEditName.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
 "    padding: 5px;  /* Giúp chữ không bị dính vào viền */\n"
@@ -76,10 +76,11 @@ class Ui_MainWindow(object):
 "    font-size: 16px;\n"
 "}\n"
 "")
-        self.lineEditFirstName.setObjectName("lineEditFirstName")
-        self.lineEditLastName = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditLastName.setGeometry(QtCore.QRect(610, 280, 251, 41))
-        self.lineEditLastName.setStyleSheet("QLineEdit {\n"
+        self.lineEditName.setText("")
+        self.lineEditName.setObjectName("lineEditName")
+        self.lineEditLastEmail = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.lineEditLastEmail.setGeometry(QtCore.QRect(610, 250, 251, 41))
+        self.lineEditLastEmail.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
 "    padding: 5px;  /* Giúp chữ không bị dính vào viền */\n"
@@ -87,9 +88,9 @@ class Ui_MainWindow(object):
 "    font-size: 16px;\n"
 "}\n"
 "")
-        self.lineEditLastName.setObjectName("lineEditLastName")
+        self.lineEditLastEmail.setObjectName("lineEditLastEmail")
         self.lineEditPhone = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditPhone.setGeometry(QtCore.QRect(320, 390, 251, 41))
+        self.lineEditPhone.setGeometry(QtCore.QRect(320, 350, 251, 41))
         self.lineEditPhone.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
@@ -99,9 +100,9 @@ class Ui_MainWindow(object):
 "}\n"
 "")
         self.lineEditPhone.setObjectName("lineEditPhone")
-        self.lineEditEmail = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditEmail.setGeometry(QtCore.QRect(610, 390, 251, 41))
-        self.lineEditEmail.setStyleSheet("QLineEdit {\n"
+        self.lineEditAddress = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.lineEditAddress.setGeometry(QtCore.QRect(610, 350, 251, 41))
+        self.lineEditAddress.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
 "    padding: 5px;  /* Giúp chữ không bị dính vào viền */\n"
@@ -109,9 +110,9 @@ class Ui_MainWindow(object):
 "    font-size: 16px;\n"
 "}\n"
 "")
-        self.lineEditEmail.setObjectName("lineEditEmail")
+        self.lineEditAddress.setObjectName("lineEditAddress")
         self.lineEditUserName = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditUserName.setGeometry(QtCore.QRect(320, 510, 541, 41))
+        self.lineEditUserName.setGeometry(QtCore.QRect(320, 470, 541, 41))
         self.lineEditUserName.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
@@ -122,7 +123,7 @@ class Ui_MainWindow(object):
 "")
         self.lineEditUserName.setObjectName("lineEditUserName")
         self.lineEditPassword = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditPassword.setGeometry(QtCore.QRect(320, 620, 541, 41))
+        self.lineEditPassword.setGeometry(QtCore.QRect(320, 580, 541, 41))
         self.lineEditPassword.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
@@ -133,7 +134,7 @@ class Ui_MainWindow(object):
 "")
         self.lineEditPassword.setObjectName("lineEditPassword")
         self.pushButtonGetStarted = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonGetStarted.setGeometry(QtCore.QRect(390, 690, 411, 61))
+        self.pushButtonGetStarted.setGeometry(QtCore.QRect(390, 740, 411, 61))
         self.pushButtonGetStarted.setStyleSheet("QPushButton {\n"
 "    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */\n"
 "    border: none;  /* Loại bỏ viền */\n"
@@ -147,6 +148,18 @@ class Ui_MainWindow(object):
         self.pushButtonGetStarted.setIcon(icon3)
         self.pushButtonGetStarted.setIconSize(QtCore.QSize(400, 60))
         self.pushButtonGetStarted.setObjectName("pushButtonGetStarted")
+        self.radioButtonTrial = QtWidgets.QRadioButton(parent=self.centralwidget)
+        self.radioButtonTrial.setGeometry(QtCore.QRect(320, 650, 95, 20))
+        self.radioButtonTrial.setText("")
+        self.radioButtonTrial.setObjectName("radioButtonTrial")
+        self.radioButtonStandard = QtWidgets.QRadioButton(parent=self.centralwidget)
+        self.radioButtonStandard.setGeometry(QtCore.QRect(390, 650, 95, 20))
+        self.radioButtonStandard.setText("")
+        self.radioButtonStandard.setObjectName("radioButtonStandard")
+        self.radioButtonVip = QtWidgets.QRadioButton(parent=self.centralwidget)
+        self.radioButtonVip.setGeometry(QtCore.QRect(510, 650, 95, 20))
+        self.radioButtonVip.setText("")
+        self.radioButtonVip.setObjectName("radioButtonVip")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1216, 26))
@@ -162,3 +175,8 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.lineEditName.setPlaceholderText(_translate("MainWindow", "ex: Nguyen Van A"))
+        self.lineEditLastEmail.setPlaceholderText(_translate("MainWindow", "ex: huynguyen002311@gmail.com"))
+        self.lineEditPhone.setPlaceholderText(_translate("MainWindow", "ex: 0375686583"))
+        self.lineEditAddress.setPlaceholderText(_translate("MainWindow", "ex: Binh Dinh"))
+        self.lineEditUserName.setPlaceholderText(_translate("MainWindow", "ex: baohuy2209"))

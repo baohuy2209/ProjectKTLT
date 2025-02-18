@@ -2,8 +2,8 @@ from model.User.Customer.Customer import Customer
 
 
 class CustomerStandard(Customer):
-    def __init__(self, userid, name, password, email, phone, address, role, loyalty_points, customer_type, reward_points, discount_rate):
-        super().__init__(userid, name, password, email, phone, address, role, loyalty_points, customer_type)
+    def __init__(self, userid, name, username, password, email, phone, address, role, loyalty_points, customer_type, reward_points, discount_rate):
+        super().__init__(userid, name,username, password, email, phone, address, role, loyalty_points, customer_type)
         self.reward_points =  reward_points
         self.discount_rate = discount_rate
     def __str__(self):

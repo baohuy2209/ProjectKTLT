@@ -27,7 +27,7 @@
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../assets/image/BG SIGN UP.png</pixmap>
+     <pixmap>../assets/image/SIGN UP (NEW).png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -129,11 +129,11 @@
      </size>
     </property>
    </widget>
-   <widget class="QLineEdit" name="lineEditFirstName">
+   <widget class="QLineEdit" name="lineEditName">
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>280</y>
+      <y>250</y>
       <width>251</width>
       <height>41</height>
      </rect>
@@ -148,12 +148,18 @@
 }
 </string>
     </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="placeholderText">
+     <string>ex: Nguyen Van A</string>
+    </property>
    </widget>
-   <widget class="QLineEdit" name="lineEditLastName">
+   <widget class="QLineEdit" name="lineEditLastEmail">
     <property name="geometry">
      <rect>
       <x>610</x>
-      <y>280</y>
+      <y>250</y>
       <width>251</width>
       <height>41</height>
      </rect>
@@ -167,13 +173,16 @@
     font-size: 16px;
 }
 </string>
+    </property>
+    <property name="placeholderText">
+     <string>ex: huynguyen002311@gmail.com</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEditPhone">
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>390</y>
+      <y>350</y>
       <width>251</width>
       <height>41</height>
      </rect>
@@ -188,12 +197,15 @@
 }
 </string>
     </property>
+    <property name="placeholderText">
+     <string>ex: 0375686583</string>
+    </property>
    </widget>
-   <widget class="QLineEdit" name="lineEditEmail">
+   <widget class="QLineEdit" name="lineEditAddress">
     <property name="geometry">
      <rect>
       <x>610</x>
-      <y>390</y>
+      <y>350</y>
       <width>251</width>
       <height>41</height>
      </rect>
@@ -207,13 +219,16 @@
     font-size: 16px;
 }
 </string>
+    </property>
+    <property name="placeholderText">
+     <string>ex: Binh Dinh</string>
     </property>
    </widget>
    <widget class="QLineEdit" name="lineEditUserName">
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>510</y>
+      <y>470</y>
       <width>541</width>
       <height>41</height>
      </rect>
@@ -228,12 +243,15 @@
 }
 </string>
     </property>
+    <property name="placeholderText">
+     <string>ex: baohuy2209</string>
+    </property>
    </widget>
    <widget class="QLineEdit" name="lineEditPassword">
     <property name="geometry">
      <rect>
       <x>320</x>
-      <y>620</y>
+      <y>580</y>
       <width>541</width>
       <height>41</height>
      </rect>
@@ -253,7 +271,7 @@
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>690</y>
+      <y>740</y>
       <width>411</width>
       <height>61</height>
      </rect>
@@ -279,6 +297,45 @@
       <width>400</width>
       <height>60</height>
      </size>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonTrial">
+    <property name="geometry">
+     <rect>
+      <x>320</x>
+      <y>650</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonStandard">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>650</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="radioButtonVip">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>650</y>
+      <width>95</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
     </property>
    </widget>
   </widget>

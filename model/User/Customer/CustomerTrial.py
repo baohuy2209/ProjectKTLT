@@ -2,8 +2,8 @@ from model.User.Customer.Customer import Customer
 
 
 class CustomerTrial(Customer):
-    def __init__(self, userid, name, password, email, phone, address, role, loyalty_points, customer_type, trial_duration, service_limitations):
-        super().__init__(userid, name, password, email, phone, address, role, loyalty_points, customer_type)
+    def __init__(self, userid, name, username, password, email, phone, address, role, loyalty_points, customer_type, trial_duration, service_limitations):
+        super().__init__(userid, name, username, password, email, phone, address, role, loyalty_points, customer_type)
         self.trial_duration = trial_duration
         self.service_limitations = service_limitations
     def __str__(self):
