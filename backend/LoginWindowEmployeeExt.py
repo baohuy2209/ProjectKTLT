@@ -20,13 +20,13 @@ class LoginWindowEmployeeExt(Ui_MainWindow):
         self.pushButtonIForgotMyPassword.clicked.connect(self.show_recover_password)
         self.pushButtonSubmit.clicked.connect(self.login_employee)
     def login_employee(self):
-        email = self.lineEditUserName.text()
+        username = self.lineEditUserName.text()
         password = self.lineEditPassword.text()
         list_user = self.user_dal.get_all_users()
         is_found = False
         login_emp = None
         for user in list_user:
-            if user.email == email and password == user.password:
+            if user.username == username and user.password==password :
                 is_found = True
                 login_emp = user
                 break

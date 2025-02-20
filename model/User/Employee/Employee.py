@@ -2,8 +2,8 @@ from model.User.User import User
 
 
 class Employee(User):
-    def __init__(self, userid, name=None, password=None, email=None, phone=None, address=None, role=None, position=None, salary=None, work_shift=None, hired_date=None):
-        super().__init__(userid, name, password, email, phone, address, role)
+    def __init__(self, userid, name=None,username=None, password=None, email=None, phone=None, address=None, role=None, position=None, salary=None, work_shift=None, hired_date=None):
+        super().__init__(userid, name, password, username,email, phone, address, role)
         self.position = position
         self.salary = salary
         self.work_shift = work_shift

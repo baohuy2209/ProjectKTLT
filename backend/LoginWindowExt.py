@@ -69,13 +69,13 @@ class LoginWindowExt(Ui_MainWindow):
         self.sign_up_window.setupUi(SignUpWindow)
         self.sign_up_window.show()
     def login(self):
-        email = self.lineEditUserName.text()
+        username = self.lineEditUserName.text()
         password = self.lineEditPassword.text()
         list_user = self.user_dal.get_all_users()
         is_found = False
         login_emp = None
         for user in list_user:
-            if user.email == email and password == user.password:
+            if user.username == username and password == user.password:
                 is_found = True
                 login_emp = user
                 break

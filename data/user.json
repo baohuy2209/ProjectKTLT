@@ -2,6 +2,7 @@
     {
         "userid": "user1",
         "name": "Nguyen Bao Huy",
+        "username": "huy2209",
         "password": "123456",
         "email": "huynguyen002311@gmail.com",
         "phone": "0375686583",
@@ -11,11 +12,12 @@
         "salary": 50000,
         "work_shift": "Monday, Tuesday, Wednesday",
         "hired_date": "2025/02/01",
-        "room_id": "room1"
+        "room_id": ["room1", "room3"]
     },
     {
         "userid": "user2",
         "name": "Lam Thuy Dung",
+        "username": "dung123",
         "password": "123456",
         "email": "lamthuydung@gmail.com",
         "phone": "0375323243",
@@ -26,11 +28,13 @@
         "work_shift": "Thursday, Friday, Saturday",
         "hired_date": "2025/02/02",
         "year_of_experience": 10,
-        "billing_rate": 4.3
+        "billing_rate": 4.3,
+        "room_id": ["room1", "room2"]
     },
     {
         "userid": "user3",
         "name": "Dang Ngoc Hoai Phuong",
+        "username": "phuong123",
         "password": "123456",
         "email": "dangngochoaiphuong@gmail.com",
         "phone": "0343545635",
