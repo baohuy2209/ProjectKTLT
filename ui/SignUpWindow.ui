@@ -253,7 +253,7 @@
     <property name="geometry">
      <rect>
       <x>390</x>
-      <y>690</y>
+      <y>730</y>
       <width>411</width>
       <height>61</height>
      </rect>
@@ -278,6 +278,132 @@
      <size>
       <width>400</width>
       <height>60</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QCheckBox" name="checkBoxIAccept">
+    <property name="geometry">
+     <rect>
+      <x>330</x>
+      <y>670</y>
+      <width>211</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/I accept.jpg</normaloff>../assets/icons/I accept.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>400</width>
+      <height>400</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonTermsAndConditions">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>670</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    font-size: 18px;
+	color: rgb(13, 169, 200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Terms and Conditions.jpg</normaloff>../assets/icons/Terms and Conditions.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>200</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>730</x>
+      <y>670</y>
+      <width>31</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Nirmala UI</family>
+      <pointsize>11</pointsize>
+      <weight>50</weight>
+      <bold>false</bold>
+     </font>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/icons/and.jpg</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPrivacyStatement">
+    <property name="geometry">
+     <rect>
+      <x>350</x>
+      <y>700</y>
+      <width>181</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    font-size: 18px;
+	color: rgb(13, 169, 200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Privacy Statement.jpg</normaloff>../assets/icons/Privacy Statement.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>200</width>
+      <height>200</height>
      </size>
     </property>
    </widget>

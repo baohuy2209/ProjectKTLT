@@ -133,7 +133,7 @@ class Ui_MainWindow(object):
 "")
         self.lineEditPassword.setObjectName("lineEditPassword")
         self.pushButtonGetStarted = QtWidgets.QPushButton(parent=self.centralwidget)
-        self.pushButtonGetStarted.setGeometry(QtCore.QRect(390, 690, 411, 61))
+        self.pushButtonGetStarted.setGeometry(QtCore.QRect(390, 730, 411, 61))
         self.pushButtonGetStarted.setStyleSheet("QPushButton {\n"
 "    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */\n"
 "    border: none;  /* Loại bỏ viền */\n"
@@ -147,6 +147,64 @@ class Ui_MainWindow(object):
         self.pushButtonGetStarted.setIcon(icon3)
         self.pushButtonGetStarted.setIconSize(QtCore.QSize(400, 60))
         self.pushButtonGetStarted.setObjectName("pushButtonGetStarted")
+        self.checkBoxIAccept = QtWidgets.QCheckBox(parent=self.centralwidget)
+        self.checkBoxIAccept.setGeometry(QtCore.QRect(330, 670, 211, 31))
+        font = QtGui.QFont()
+        font.setPointSize(12)
+        self.checkBoxIAccept.setFont(font)
+        self.checkBoxIAccept.setText("")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("D:\\KTLT PROJECT FINAL\\ProjectKTLT\\ui\\../assets/icons/I accept.jpg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.checkBoxIAccept.setIcon(icon4)
+        self.checkBoxIAccept.setIconSize(QtCore.QSize(400, 400))
+        self.checkBoxIAccept.setObjectName("checkBoxIAccept")
+        self.pushButtonTermsAndConditions = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonTermsAndConditions.setGeometry(QtCore.QRect(520, 670, 201, 31))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.pushButtonTermsAndConditions.setFont(font)
+        self.pushButtonTermsAndConditions.setStyleSheet("QPushButton {\n"
+"    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */\n"
+"    border: none;  /* Loại bỏ viền */\n"
+"    font-size: 18px;\n"
+"    color: rgb(13, 169, 200);\n"
+"}\n"
+"")
+        self.pushButtonTermsAndConditions.setText("")
+        icon5 = QtGui.QIcon()
+        icon5.addPixmap(QtGui.QPixmap("D:\\KTLT PROJECT FINAL\\ProjectKTLT\\ui\\../assets/icons/Terms and Conditions.jpg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonTermsAndConditions.setIcon(icon5)
+        self.pushButtonTermsAndConditions.setIconSize(QtCore.QSize(300, 200))
+        self.pushButtonTermsAndConditions.setObjectName("pushButtonTermsAndConditions")
+        self.label_4 = QtWidgets.QLabel(parent=self.centralwidget)
+        self.label_4.setGeometry(QtCore.QRect(730, 670, 31, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nirmala UI")
+        font.setPointSize(11)
+        font.setBold(False)
+        font.setWeight(50)
+        self.label_4.setFont(font)
+        self.label_4.setText("")
+        self.label_4.setPixmap(QtGui.QPixmap("D:\\KTLT PROJECT FINAL\\ProjectKTLT\\ui\\../assets/icons/and.jpg"))
+        self.label_4.setObjectName("label_4")
+        self.pushButtonPrivacyStatement = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonPrivacyStatement.setGeometry(QtCore.QRect(350, 700, 181, 31))
+        font = QtGui.QFont()
+        font.setPointSize(-1)
+        self.pushButtonPrivacyStatement.setFont(font)
+        self.pushButtonPrivacyStatement.setStyleSheet("QPushButton {\n"
+"    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */\n"
+"    border: none;  /* Loại bỏ viền */\n"
+"    font-size: 18px;\n"
+"    color: rgb(13, 169, 200);\n"
+"}\n"
+"")
+        self.pushButtonPrivacyStatement.setText("")
+        icon6 = QtGui.QIcon()
+        icon6.addPixmap(QtGui.QPixmap("D:\\KTLT PROJECT FINAL\\ProjectKTLT\\ui\\../assets/icons/Privacy Statement.jpg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonPrivacyStatement.setIcon(icon6)
+        self.pushButtonPrivacyStatement.setIconSize(QtCore.QSize(200, 200))
+        self.pushButtonPrivacyStatement.setObjectName("pushButtonPrivacyStatement")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1216, 26))
