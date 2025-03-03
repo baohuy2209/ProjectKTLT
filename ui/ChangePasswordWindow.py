@@ -114,6 +114,22 @@ class Ui_MainWindow(object):
         self.pushButtonFacebook.setIcon(icon3)
         self.pushButtonFacebook.setIconSize(QtCore.QSize(70, 2000))
         self.pushButtonFacebook.setObjectName("pushButtonFacebook")
+        self.pushButtonExit = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonExit.setGeometry(QtCore.QRect(810, 120, 81, 81))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.pushButtonExit.setFont(font)
+        self.pushButtonExit.setStyleSheet("QPushButton {\n"
+"    background-color: transparent;\n"
+"    border: none;\n"
+"    color: white;  /* Màu chữ */\n"
+"}")
+        self.pushButtonExit.setText("")
+        icon4 = QtGui.QIcon()
+        icon4.addPixmap(QtGui.QPixmap("D:\\KTLT PROJECT FINAL\\ProjectKTLT\\ui\\../assets/icons/x.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonExit.setIcon(icon4)
+        self.pushButtonExit.setIconSize(QtCore.QSize(70, 100))
+        self.pushButtonExit.setObjectName("pushButtonExit")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1226, 26))

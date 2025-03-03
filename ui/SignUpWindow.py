@@ -13,12 +13,20 @@ class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
         MainWindow.resize(1216, 866)
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        MainWindow.setFont(font)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
         self.label = QtWidgets.QLabel(parent=self.centralwidget)
-        self.label.setGeometry(QtCore.QRect(0, 0, 1211, 831))
+        self.label.setGeometry(QtCore.QRect(0, 0, 1221, 831))
+        font = QtGui.QFont()
+        font.setBold(True)
+        font.setWeight(75)
+        self.label.setFont(font)
         self.label.setText("")
-        self.label.setPixmap(QtGui.QPixmap("D:\\KTLT PROJECT FINAL\\ProjectKTLT\\ui\\../assets/image/BG SIGN UP.png"))
+        self.label.setPixmap(QtGui.QPixmap("D:\\KTLT PROJECT FINAL\\ProjectKTLT\\ui\\../assets/image/SIGN UP.png"))
         self.label.setScaledContents(True)
         self.label.setObjectName("label")
         self.pushButtonMail = QtWidgets.QPushButton(parent=self.centralwidget)
@@ -67,7 +75,7 @@ class Ui_MainWindow(object):
         self.pushButtonFacebook.setIconSize(QtCore.QSize(60, 60))
         self.pushButtonFacebook.setObjectName("pushButtonFacebook")
         self.lineEditFirstName = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditFirstName.setGeometry(QtCore.QRect(320, 280, 251, 41))
+        self.lineEditFirstName.setGeometry(QtCore.QRect(330, 250, 241, 41))
         self.lineEditFirstName.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
@@ -77,9 +85,9 @@ class Ui_MainWindow(object):
 "}\n"
 "")
         self.lineEditFirstName.setObjectName("lineEditFirstName")
-        self.lineEditLastName = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditLastName.setGeometry(QtCore.QRect(610, 280, 251, 41))
-        self.lineEditLastName.setStyleSheet("QLineEdit {\n"
+        self.lineEditEmail_2 = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.lineEditEmail_2.setGeometry(QtCore.QRect(620, 250, 241, 41))
+        self.lineEditEmail_2.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
 "    padding: 5px;  /* Giúp chữ không bị dính vào viền */\n"
@@ -87,9 +95,9 @@ class Ui_MainWindow(object):
 "    font-size: 16px;\n"
 "}\n"
 "")
-        self.lineEditLastName.setObjectName("lineEditLastName")
+        self.lineEditEmail_2.setObjectName("lineEditEmail_2")
         self.lineEditPhone = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditPhone.setGeometry(QtCore.QRect(320, 390, 251, 41))
+        self.lineEditPhone.setGeometry(QtCore.QRect(330, 360, 241, 41))
         self.lineEditPhone.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
@@ -99,9 +107,9 @@ class Ui_MainWindow(object):
 "}\n"
 "")
         self.lineEditPhone.setObjectName("lineEditPhone")
-        self.lineEditEmail = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditEmail.setGeometry(QtCore.QRect(610, 390, 251, 41))
-        self.lineEditEmail.setStyleSheet("QLineEdit {\n"
+        self.lineEditAddress = QtWidgets.QLineEdit(parent=self.centralwidget)
+        self.lineEditAddress.setGeometry(QtCore.QRect(620, 360, 241, 41))
+        self.lineEditAddress.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
 "    padding: 5px;  /* Giúp chữ không bị dính vào viền */\n"
@@ -109,9 +117,9 @@ class Ui_MainWindow(object):
 "    font-size: 16px;\n"
 "}\n"
 "")
-        self.lineEditEmail.setObjectName("lineEditEmail")
+        self.lineEditAddress.setObjectName("lineEditAddress")
         self.lineEditUserName = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditUserName.setGeometry(QtCore.QRect(320, 510, 541, 41))
+        self.lineEditUserName.setGeometry(QtCore.QRect(330, 470, 531, 41))
         self.lineEditUserName.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
@@ -122,7 +130,7 @@ class Ui_MainWindow(object):
 "")
         self.lineEditUserName.setObjectName("lineEditUserName")
         self.lineEditPassword = QtWidgets.QLineEdit(parent=self.centralwidget)
-        self.lineEditPassword.setGeometry(QtCore.QRect(320, 620, 541, 41))
+        self.lineEditPassword.setGeometry(QtCore.QRect(330, 580, 531, 41))
         self.lineEditPassword.setStyleSheet("QLineEdit {\n"
 "    border-radius: 15px;  /* Bo góc 15px */\n"
 "    border: 2px solid gray;  /* Viền xám */\n"
@@ -205,6 +213,67 @@ class Ui_MainWindow(object):
         self.pushButtonPrivacyStatement.setIcon(icon6)
         self.pushButtonPrivacyStatement.setIconSize(QtCore.QSize(200, 200))
         self.pushButtonPrivacyStatement.setObjectName("pushButtonPrivacyStatement")
+        self.radioButtonTrial = QtWidgets.QRadioButton(parent=self.centralwidget)
+        self.radioButtonTrial.setGeometry(QtCore.QRect(330, 630, 91, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nirmala")
+        font.setPointSize(-1)
+        font.setBold(True)
+        font.setWeight(75)
+        self.radioButtonTrial.setFont(font)
+        self.radioButtonTrial.setStyleSheet("QRadioButton {\n"
+"    font-family: \"Nirmala\";\n"
+"    font-size: 20px;\n"
+"    font-weight: bold; /* In đậm */\n"
+"}\n"
+"")
+        self.radioButtonTrial.setObjectName("radioButtonTrial")
+        self.radioButtonStandard = QtWidgets.QRadioButton(parent=self.centralwidget)
+        self.radioButtonStandard.setGeometry(QtCore.QRect(450, 630, 121, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nirmala")
+        font.setPointSize(-1)
+        font.setBold(True)
+        font.setWeight(75)
+        self.radioButtonStandard.setFont(font)
+        self.radioButtonStandard.setStyleSheet("QRadioButton {\n"
+"    font-family: \"Nirmala\";\n"
+"    font-size: 20px;\n"
+"    font-weight: bold; /* In đậm */\n"
+"}\n"
+"")
+        self.radioButtonStandard.setObjectName("radioButtonStandard")
+        self.radioButtonVIP = QtWidgets.QRadioButton(parent=self.centralwidget)
+        self.radioButtonVIP.setGeometry(QtCore.QRect(620, 630, 61, 31))
+        font = QtGui.QFont()
+        font.setFamily("Nirmala")
+        font.setPointSize(-1)
+        font.setBold(True)
+        font.setWeight(75)
+        self.radioButtonVIP.setFont(font)
+        self.radioButtonVIP.setStyleSheet("QRadioButton {\n"
+"    font-family: \"Nirmala\";\n"
+"    font-size: 20px;\n"
+"    font-weight: bold; /* In đậm */\n"
+"}\n"
+"")
+        self.radioButtonVIP.setObjectName("radioButtonVIP")
+        self.pushButtonExit = QtWidgets.QPushButton(parent=self.centralwidget)
+        self.pushButtonExit.setGeometry(QtCore.QRect(850, 110, 81, 81))
+        font = QtGui.QFont()
+        font.setPointSize(20)
+        self.pushButtonExit.setFont(font)
+        self.pushButtonExit.setStyleSheet("QPushButton {\n"
+"    background-color: transparent;\n"
+"    border: none;\n"
+"    color: white;  /* Màu chữ */\n"
+"}")
+        self.pushButtonExit.setText("")
+        icon7 = QtGui.QIcon()
+        icon7.addPixmap(QtGui.QPixmap("D:\\KTLT PROJECT FINAL\\ProjectKTLT\\ui\\../assets/icons/x.png"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButtonExit.setIcon(icon7)
+        self.pushButtonExit.setIconSize(QtCore.QSize(70, 100))
+        self.pushButtonExit.setObjectName("pushButtonExit")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
         self.menubar.setGeometry(QtCore.QRect(0, 0, 1216, 26))
@@ -220,3 +289,6 @@ class Ui_MainWindow(object):
     def retranslateUi(self, MainWindow):
         _translate = QtCore.QCoreApplication.translate
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
+        self.radioButtonTrial.setText(_translate("MainWindow", "Trial"))
+        self.radioButtonStandard.setText(_translate("MainWindow", "Standard"))
+        self.radioButtonVIP.setText(_translate("MainWindow", "VIP"))
