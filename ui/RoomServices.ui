@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1063</width>
+    <height>614</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Panacea - Room Services</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>1051</width>
+      <height>561</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/image/BG Home Window.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPlainTextEdit" name="plainTextEdit">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>150</y>
+      <width>931</width>
+      <height>371</height>
+     </rect>
+    </property>
+    <property name="sizePolicy">
+     <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+      <horstretch>0</horstretch>
+      <verstretch>0</verstretch>
+     </sizepolicy>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald&quot;;
+color: white;
+background-color: rgba(255, 255, 255, 25);
+border: 0.5px solid white;
+border-radius: 7px;</string>
+    </property>
+    <property name="plainText">
+     <string>     Panacea – Vũ trụ giải trí mang đến cho khách hàng một loạt các dịch vụ độc đáo và sáng tạo, được thiết kế để giải tỏa căng thẳng và nâng cao sức khỏe tinh thần. Dưới đây là một số dịch vụ nổi tiếng tại Panacea: 
+    • Thiền định và Yoga: Dưới sự hướng dẫn tận tình từ các giáo viên chuyên nghiệp và công nghệ hỗ trợ hiện đại, bạn sẽ được trải nghiệm những phút giây hoàn toàn thư thái, tạm rời xa những áp lực công việc và cuộc sống. 
+     • Vẽ tranh: Nếu bạn là người yêu thích sự sáng tạo và muốn thỏa sức bộc lộ bản thân, Panacea chính là nơi dành cho bạn. Tại đây, bạn có thể thử sức với các hoạt động vẽ tranh, tạo ra những giai điệu âm nhạc riêng của mình, hoặc đơn giản là để cảm xúc dẫn lối.
+     • Trò chơi giải trí: Tại Panacea, bạn sẽ được trải nghiệm những trò chơi cảm giác mạnh như bắn súng, ném rìu hay tham gia các trò chơi điện tử hấp dẫn. Hãy đến và thỏa sức thể hiện bản lĩnh, để mỗi phút giây vui chơi đều trở thành những khoảnh khắc giải tỏa căng thẳng tuyệt vời.
+     • Tư vấn tâm lý: Cuộc sống bận rộn khiến chúng ta ít khi dành thời gian để lắng nghe chính mình. Dịch vụ Tư vấn tâm lý tại Panacea sẽ giúp bạn tìm lại sự tĩnh lặng trong tâm hồn. Dưới sự hỗ trợ chuyên nghiệp và tận tâm của các chuyên gia tâm lý, bạn sẽ được chia sẻ những lo âu, stress mà mình đang gặp phải. 
+     Hãy đến với Panacea, nơi không chỉ là dịch vụ giải trí, mà còn là hành trình tìm lại sự bình yên, sự sáng tạo và sự kết nối sâu sắc với chính mình!</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1063</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

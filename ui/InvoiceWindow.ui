@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1075</width>
+    <height>703</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1071</width>
+      <height>651</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/image/BG Home Window.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>110</y>
+      <width>181</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 22pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>INVOICE</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>170</y>
+      <width>591</width>
+      <height>381</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 40);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>200</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Invoice ID:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditInvoiceID">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>210</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineBookingID">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>250</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color: white;
+background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>240</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Booking ID:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>280</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Invocie Date:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>360</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Tax Amount:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="linePaymentAmount">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>330</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineTaxAmount">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>370</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineDiscountAmount">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>410</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_8">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>320</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Payment Amount:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_9">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>400</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Discount Amount:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_10">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>440</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Total Payable:</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineTotalPayable">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>450</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_11">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>480</y>
+      <width>151</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font-size: 13pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;
+</string>
+    </property>
+    <property name="text">
+     <string>Payment Method:</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxPaymentMethod">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>490</y>
+      <width>321</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Credit Card</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Cash</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>E-wallet</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>560</y>
+      <width>231</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Exit.png</normaloff>../assets/icons/Exit.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>140</width>
+      <height>140</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPay">
+    <property name="geometry">
+     <rect>
+      <x>360</x>
+      <y>560</y>
+      <width>221</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: transparent;
+border: none;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Pay.png</normaloff>../assets/icons/Pay.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>140</width>
+      <height>140</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEditInvoiceDate">
+    <property name="enabled">
+     <bool>true</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>290</y>
+      <width>321</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+font-size: 10pt;
+font-family: &quot;#9Slide03 Oswald Bold&quot;;
+color: white;</string>
+    </property>
+    <property name="date">
+     <date>
+      <year>2025</year>
+      <month>2</month>
+      <day>14</day>
+     </date>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1075</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

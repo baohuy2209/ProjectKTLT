@@ -58,6 +58,21 @@ class UserDAL:
                         element_user = CustomerServiceStaff(userid=user["userid"], name=user["name"], username=user["username"], password=user["password"], email=user["email"], phone=user["phone"], address=user["address"], role=user["role"], position=user["position"], salary=user["salary"], work_shift=user["work_shift"], hired_date=user["hired_date"], customer_id=user["customer_id"])
             list_user.append(element_user)
         return list_user
+    def get_all_psy(self):
+        filepath = self.get_filepath("../data/user.json")
+        self.list_user = self.json_factory.read_file(filepath, "r")
+        list_psy = []
+        for user in self.list_user:
+            if user["role"] == "Employee" and user["position"] == "Psychological Consultant":
+                list_psy.append(PsyConsultant(userid=user["userid"], name=user["name"],
+                                             username=user["username"], password=user["password"],
+                                             email=user["email"], phone=user["phone"], address=user["address"],
+                                             role=user["role"], position=user["position"],
+                                             salary=user["salary"], work_shift=user["work_shift"],
+                                             hired_date=user["hired_date"],
+                                             year_of_experience=user["year_of_experience"],
+                                             billing_rate=user["billing_rate"], room_id=user["room_id"]))
+        return list_psy
     def get_user_by_id(self, user_id):
         filepath = self.get_filepath("../data/user.json")
         self.list_user = self.json_factory.read_file(filepath, "r")
