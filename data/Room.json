@@ -1,0 +1,402 @@
+[
+    {
+        "room_id": "catharsis1",
+        "name": "Catharsis 1",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis2",
+        "name": "Catharsis 2",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis3",
+        "name": "Catharsis 3",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis4",
+        "name": "Catharsis 4",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis5",
+        "name": "Catharsis 5",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis6",
+        "name": "Catharsis 6",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis7",
+        "name": "Catharsis 7",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis8",
+        "name": "Catharsis 8",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis9",
+        "name": "Catharsis 9",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis10",
+        "name": "Catharsis 10",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "oasis1",
+        "name": "Oasis 1",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis2",
+        "name": "Oasis 2",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis3",
+        "name": "Oasis 3",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis4",
+        "name": "Oasis 4",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis5",
+        "name": "Oasis 5",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis6",
+        "name": "Oasis 6",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis7",
+        "name": "Oasis 7",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis8",
+        "name": "Oasis 8",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis9",
+        "name": "Oasis 9",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis10",
+        "name": "Oasis 10",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "genii1",
+        "name": "Genii 1",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii2",
+        "name": "Genii 2",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii3",
+        "name": "Genii 3",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii4",
+        "name": "Genii 4",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii5",
+        "name": "Genii 5",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii6",
+        "name": "Genii 6",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii7",
+        "name": "Genii 7",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii8",
+        "name": "Genii 8",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii9",
+        "name": "Genii 9",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "genii10",
+        "name": "Genii 10",
+        "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 34000,
+        "room_type": "Genii",
+        "musical_instruments": "Guitar, Piano, Drum"
+    },
+    {
+        "room_id": "mutiny1",
+        "name": "Mutiny 1",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny2",
+        "name": "Mutiny 2",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny3",
+        "name": "Mutiny 3",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny4",
+        "name": "Mutiny 4",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny5",
+        "name": "Mutiny 5",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny6",
+        "name": "Mutiny 6",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny7",
+        "name": "Mutiny 7",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny8",
+        "name": "Mutiny 8",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny9",
+        "name": "Mutiny 9",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "full",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "mutiny10",
+        "name": "Mutiny 10",
+        "description": "An environment where players can experience thrilling games to relieve their frustrations.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 32000,
+        "room_type": "Mutiny",
+        "game_equipment": "VR Headset, Joystick"
+    }
+]

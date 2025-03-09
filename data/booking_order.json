@@ -1,5 +1,42 @@
 [
-  {
-
-  }
+    {
+        "booking_id": 1,
+        "check_in_date": "23/3/2025",
+        "check_out_date": "25/3/2025",
+        "customer_id": "user5",
+        "employee_id": "user3",
+        "promotion_id": ""
+    },
+    {
+        "booking_id": 2,
+        "check_in_date": "01/01/2022 00:00:00",
+        "check_out_date": "01/02/2022 00:00:00",
+        "customer_id": "user4",
+        "employee_id": "user3",
+        "promotion_id": ""
+    },
+    {
+        "booking_id": 3,
+        "check_in_date": "01/01/2000 00:00:00",
+        "check_out_date": "01/01/2000 00:00:00",
+        "customer_id": "user4",
+        "employee_id": "user3",
+        "promotion_id": ""
+    },
+    {
+        "booking_id": 4,
+        "check_in_date": "01/01/2000 00:00:00",
+        "check_out_date": "02/01/2000 00:00:00",
+        "customer_id": "user4",
+        "employee_id": "user3",
+        "promotion_id": ""
+    },
+    {
+        "booking_id": 5,
+        "check_in_date": "01/01/2000 00:00:00",
+        "check_out_date": "01/01/2000 00:00:00",
+        "customer_id": "user5",
+        "employee_id": "user3",
+        "promotion_id": ""
+    }
 ]

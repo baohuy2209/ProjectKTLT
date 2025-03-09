@@ -1,0 +1,627 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1222</width>
+    <height>860</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTextEdit" name="textEditContent">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>250</y>
+      <width>491</width>
+      <height>131</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QTextEdit {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    border: 2px solid #3498db; /* Viền xanh */
+    border-radius: 15px; /* Bo góc */
+    padding: 8px;
+}</string>
+    </property>
+   </widget>
+   <widget class="QDateEdit" name="dateEditDateRate">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>560</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDateTimeEdit {
+    background-color: white;  /* Màu nền trắng */
+    color: #2c3e50; /* Màu chữ xanh đậm */
+    border: 2px solid #3498db; /* Viền xanh */
+    border-radius: 15px; /* Bo góc */
+    padding: 5px;
+    font-size: 30px;
+}
+QDateTimeEdit::drop-down {
+    border: none;
+    background: transparent;
+}
+QDateTimeEdit::up-button, QDateTimeEdit::down-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #3498db;
+}
+QDateTimeEdit::up-button:hover, QDateTimeEdit::down-button:hover {
+    background-color: #2980b9;
+}
+Family Font: &quot;Time New Roman&quot;</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditUserName">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>410</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Màu nền trắng */
+    color: #2c3e50; /* Màu chữ xanh đậm */
+    border: 2px solid #3498db; /* Viền xanh */
+    border-radius: 15px; /* Bo góc */
+    padding: 5px;
+	font-size: 25px;
+	font-weight:bold;
+}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditIDRoom">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>480</y>
+      <width>491</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Màu nền trắng */
+    color: #2c3e50; /* Màu chữ xanh đậm */
+    border: 2px solid #3498db; /* Viền xanh */
+    border-radius: 15px; /* Bo góc */
+    padding: 5px;
+    font-size: 25px;
+	font-weight:bold;
+}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPhone">
+    <property name="geometry">
+     <rect>
+      <x>1100</x>
+      <y>580</y>
+      <width>101</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/PHONE.png</normaloff>../assets/icons/PHONE.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>100</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditRate">
+    <property name="geometry">
+     <rect>
+      <x>430</x>
+      <y>640</y>
+      <width>421</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: white; /* Màu nền trắng */
+    color: #2c3e50; /* Màu chữ xanh đậm */
+    border: 2px solid #3498db; /* Viền xanh */
+    border-radius: 15px; /* Bo góc */
+    padding: 5px;
+    font-size: 25px;
+	font-weight:bold, italic;
+}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+    <property name="placeholderText">
+     <string>Please rate on a 5 point scale</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>870</x>
+      <y>630</y>
+      <width>51</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    background-color: transparent; /* Nền trong suốt */
+    border: none; /* Không viền */
+    color: white; /* Màu chữ */
+    font-size: 16px;
+    padding: 5px;
+}
+QLineEdit:focus {
+    border-bottom: 2px solid #3498db; /* Viền dưới khi focus */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/icons/star.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonFacebook">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>690</y>
+      <width>81</width>
+      <height>91</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/facebook-logo.png</normaloff>../assets/icons/facebook-logo.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>80</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMail">
+    <property name="geometry">
+     <rect>
+      <x>1110</x>
+      <y>480</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/MAIL.png</normaloff>../assets/icons/MAIL.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonSendFeedback">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>720</y>
+      <width>391</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/SENDFEEDBACK.png</normaloff>../assets/icons/SENDFEEDBACK.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>350</width>
+      <height>300</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1231</width>
+      <height>811</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/image/FEEDBACK.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonContact">
+    <property name="geometry">
+     <rect>
+      <x>1020</x>
+      <y>40</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/CONTACT.png</normaloff>../assets/icons/CONTACT.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>95</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonHome">
+    <property name="geometry">
+     <rect>
+      <x>590</x>
+      <y>40</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/HOME.png</normaloff>../assets/icons/HOME.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>65</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonOrder">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>40</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/ORDER.png</normaloff>../assets/icons/ORDER.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>75</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPlayRoom">
+    <property name="geometry">
+     <rect>
+      <x>680</x>
+      <y>40</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/PLAY ROOM.png</normaloff>../assets/icons/PLAY ROOM.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>120</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPrice">
+    <property name="geometry">
+     <rect>
+      <x>930</x>
+      <y>40</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/PRICE.png</normaloff>../assets/icons/PRICE.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>65</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMore">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>40</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/3 GẠCH.png</normaloff>../assets/icons/3 GẠCH.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonExit">
+    <property name="geometry">
+     <rect>
+      <x>980</x>
+      <y>170</y>
+      <width>81</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/x.png</normaloff>../assets/icons/x.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>70</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <zorder>label</zorder>
+   <zorder>textEditContent</zorder>
+   <zorder>dateEditDateRate</zorder>
+   <zorder>lineEditUserName</zorder>
+   <zorder>lineEditIDRoom</zorder>
+   <zorder>pushButtonPhone</zorder>
+   <zorder>lineEditRate</zorder>
+   <zorder>label_4</zorder>
+   <zorder>pushButtonFacebook</zorder>
+   <zorder>pushButtonMail</zorder>
+   <zorder>pushButtonSendFeedback</zorder>
+   <zorder>pushButtonContact</zorder>
+   <zorder>pushButtonHome</zorder>
+   <zorder>pushButtonOrder</zorder>
+   <zorder>pushButtonPlayRoom</zorder>
+   <zorder>pushButtonPrice</zorder>
+   <zorder>pushButtonMore</zorder>
+   <zorder>pushButtonExit</zorder>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1222</width>
+     <height>26</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

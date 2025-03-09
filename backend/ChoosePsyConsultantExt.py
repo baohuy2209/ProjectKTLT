@@ -1,15 +1,19 @@
+from PyQt6.QtCore import pyqtSignal
 from PyQt6.QtWidgets import QTableWidgetItem, QMessageBox
+from aiohttp.web_routedef import static
 
 from data_access_layer.UserDAL import UserDAL
+from model.User.Employee.PsyConsultant import PsyConsultant
 from ui.ChoosePsyConsultant import Ui_MainWindow
 
 
 class ChoosePsyConsultantExt(Ui_MainWindow):
     def __init__(self):
+        super().__init__()
         self.user_dal = UserDAL()
         self.list_psy = self.user_dal.get_all_psy()
-        self.selected_psy = None
         self.room_register = None
+        self.current_usser = None
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow = MainWindow
@@ -47,7 +51,6 @@ class ChoosePsyConsultantExt(Ui_MainWindow):
         if row == -1 or row > len(self.list_psy):
             return
         psy = self.list_psy[row]
-        self.selected_psy = psy
         id = psy.userid
         name = psy.name
         email = psy.email
@@ -74,18 +77,11 @@ class ChoosePsyConsultantExt(Ui_MainWindow):
         rs = dlg.exec()
         if rs == QMessageBox.StandardButton.Yes:
             self.MainWindow.close()
+
+    class_chosen_psy = pyqtSignal(PsyConsultant)
     def processChoosePsy(self):
-        dlg = QMessageBox(self.MainWindow)
-        if self.selected_psy == None:
-            dlg.setWindowTitle("Choosing error")
-            dlg.setIcon(QMessageBox.Icon.Warning)
-            dlg.setText("Can't find this PsyConsultant!")
-            dlg.exec()
-            return
-        dlg.setWindowTitle("Confirmation Choosing")
-        dlg.setText("Are you sure to choosing this PsyConsultant?")
-        dlg.setStandardButtons(QMessageBox.StandardButton.Yes |
-                               QMessageBox.StandardButton.No)
-        rs = dlg.exec()
-        if rs == QMessageBox.StandardButton.Yes:
-            print("hello")
+        id = self.lineEditPsyID.text()
+        chosen_psy = self.user_dal.get_psy_by_id(id)
+        if chosen_psy != None and self.class_chosen_psy != None:
+            self.class_chosen_psy.emit(chosen_psy)
+            self.MainWindow.close()

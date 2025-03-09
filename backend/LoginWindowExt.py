@@ -75,13 +75,13 @@ class LoginWindowExt(Ui_MainWindow):
         is_found = False
         login_emp = None
         for user in list_user:
-            if user.username == username and password == user.password:
+            if user.username == username and password == user.password and user.role=="Customer":
                 is_found = True
                 login_emp = user
                 break
         content = ""
         window_title = ""
-        if not is_found or login_emp.role != "Customer":
+        if not is_found:
             content = "This account doesn't exist !!!"
             window_title = "Error !!!"
             msgBox = QMessageBox()
@@ -102,5 +102,6 @@ class LoginWindowExt(Ui_MainWindow):
                 self.home_window.current_user = login_emp
                 self.home_window.setupUi(HomeWindow)
                 self.home_window.show()
+                self.MainWindow.close()
     def show(self):
         self.MainWindow.show()

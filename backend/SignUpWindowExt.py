@@ -23,6 +23,12 @@ class SignUpWindowExt(Ui_MainWindow):
         self.pushButtonMail.clicked.connect(self.show_mail)
         self.pushButtonPhone.clicked.connect(self.show_phone)
         self.pushButtonFacebook.clicked.connect(self.show_facebook)
+        self.pushButtonTermsAndConditions.clicked.connect(self.show_term_condition)
+        self.pushButtonPrivacyStatement.clicked.connect(self.show_privacy_statement)
+    def show_term_condition(self):
+        pass
+    def show_privacy_statement(self):
+        pass
     def show_mail(self):
         msg_box = QMessageBox()
         msg_box.setIcon(QMessageBox.Icon.Information)
@@ -34,7 +40,6 @@ class SignUpWindowExt(Ui_MainWindow):
         if button == QMessageBox.StandardButton.Close:
             msg_box.close()
     def get_customer_type(self):
-        type_customer = ""
         if self.radioButtonStandard.isChecked():
             type_customer = "Standard"
         elif self.radioButtonVip.isChecked():
@@ -50,7 +55,7 @@ class SignUpWindowExt(Ui_MainWindow):
             no_user = len(self.user_dal.get_all_users())+1
             new_user_id = "user"+str(no_user)
             name = self.lineEditName.text()
-            email_sign_up = self.lineEditLastEmail.text()
+            email_sign_up = self.lineEditEmail.text()
             address = self.lineEditAddress.text()
             phone_sign_up = self.lineEditPhone.text()
             username = self.lineEditUserName.text()
@@ -76,7 +81,10 @@ class SignUpWindowExt(Ui_MainWindow):
                     new_user = standard_customer.__dict__
                 case "Vip":
                     # The free services which vip will be served
-                    free_services = []
+                    free_services = [
+                        "3 times free message service",
+                        "1 time free psychological counseling service",
+                    ]
                     vip_customer = CustomerVIP(userid=new_user_id, name=name, username=username, password=password,
                                                  email=email_sign_up, phone=phone_sign_up, address=address, role="Customer",loyalty_points=loyalty_point, customer_type=type_customer,
                                                  free_services=free_services)

@@ -6,8 +6,8 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>1209</width>
-    <height>857</height>
+    <width>1224</width>
+    <height>866</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -17,17 +17,17 @@
    <widget class="QLabel" name="LoginWindowBackground">
     <property name="geometry">
      <rect>
-      <x>10</x>
+      <x>0</x>
       <y>0</y>
-      <width>1201</width>
-      <height>811</height>
+      <width>1231</width>
+      <height>821</height>
      </rect>
     </property>
     <property name="text">
      <string/>
     </property>
     <property name="pixmap">
-     <pixmap>../assets/image/BG LOGIN FINAL.png</pixmap>
+     <pixmap>../assets/image/LOGIN.png</pixmap>
     </property>
     <property name="scaledContents">
      <bool>true</bool>
@@ -120,41 +120,11 @@ background-color: rgb(255, 255, 255);
      </size>
     </property>
    </widget>
-   <widget class="QLabel" name="labelUsername">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>290</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Nirmala UI</family>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 127);</string>
-    </property>
-    <property name="midLineWidth">
-     <number>0</number>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../assets/icons/User Name.jpg</pixmap>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEditUserName">
     <property name="geometry">
      <rect>
       <x>570</x>
-      <y>330</y>
+      <y>320</y>
       <width>411</width>
       <height>41</height>
      </rect>
@@ -175,38 +145,11 @@ background-color: rgb(255, 255, 255);
 </string>
     </property>
    </widget>
-   <widget class="QLabel" name="labelPassword">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>390</y>
-      <width>141</width>
-      <height>41</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Nirmala UI</family>
-      <pointsize>14</pointsize>
-      <weight>75</weight>
-      <bold>true</bold>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">color: rgb(0, 0, 127);</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../assets/icons/Password.jpg</pixmap>
-    </property>
-   </widget>
    <widget class="QLineEdit" name="lineEditPassword">
     <property name="geometry">
      <rect>
       <x>570</x>
-      <y>430</y>
+      <y>440</y>
       <width>411</width>
       <height>41</height>
      </rect>
@@ -314,34 +257,10 @@ border-color: rgb(85, 85, 85);</string>
      <pixmap>../assets/icons/Don't have.jpg</pixmap>
     </property>
    </widget>
-   <widget class="QLabel" name="label_3">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>660</y>
-      <width>171</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <family>Nirmala UI</family>
-      <pointsize>11</pointsize>
-      <weight>50</weight>
-      <bold>false</bold>
-     </font>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="pixmap">
-     <pixmap>../assets/icons/I accept.jpg</pixmap>
-    </property>
-   </widget>
    <widget class="QPushButton" name="pushButtonTermsAndConditions">
     <property name="geometry">
      <rect>
-      <x>740</x>
+      <x>570</x>
       <y>660</y>
       <width>201</width>
       <height>31</height>
@@ -378,7 +297,7 @@ border-color: rgb(85, 85, 85);</string>
    <widget class="QLabel" name="label_4">
     <property name="geometry">
      <rect>
-      <x>950</x>
+      <x>780</x>
       <y>660</y>
       <width>31</width>
       <height>31</height>
@@ -397,43 +316,6 @@ border-color: rgb(85, 85, 85);</string>
     </property>
     <property name="pixmap">
      <pixmap>../assets/icons/and.jpg</pixmap>
-    </property>
-   </widget>
-   <widget class="QPushButton" name="pushButtonPrivacyStatement">
-    <property name="geometry">
-     <rect>
-      <x>570</x>
-      <y>690</y>
-      <width>181</width>
-      <height>31</height>
-     </rect>
-    </property>
-    <property name="font">
-     <font>
-      <pointsize>-1</pointsize>
-     </font>
-    </property>
-    <property name="styleSheet">
-     <string notr="true">QPushButton {
-    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
-    border: none;  /* Loại bỏ viền */
-    font-size: 18px;
-	color: rgb(13, 169, 200);
-}
-</string>
-    </property>
-    <property name="text">
-     <string/>
-    </property>
-    <property name="icon">
-     <iconset>
-      <normaloff>../assets/icons/Privacy Statement.jpg</normaloff>../assets/icons/Privacy Statement.jpg</iconset>
-    </property>
-    <property name="iconSize">
-     <size>
-      <width>200</width>
-      <height>200</height>
-     </size>
     </property>
    </widget>
    <widget class="QPushButton" name="pushButtonSignUp">
@@ -606,14 +488,51 @@ border-color: rgb(85, 85, 85);</string>
      </size>
     </property>
    </widget>
+   <widget class="QPushButton" name="pushButtonPrivacyStatement">
+    <property name="geometry">
+     <rect>
+      <x>810</x>
+      <y>650</y>
+      <width>201</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: rgba(0, 0, 0, 0); /* Nền trong suốt */
+    border: none;  /* Loại bỏ viền */
+    font-size: 18px;
+	color: rgb(13, 169, 200);
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Privacy Login.jpg</normaloff>../assets/icons/Privacy Login.jpg</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>300</height>
+     </size>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>1209</width>
-     <height>26</height>
+     <width>1224</width>
+     <height>21</height>
     </rect>
    </property>
   </widget>

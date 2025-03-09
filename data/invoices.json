@@ -1,3 +1,42 @@
 [
-
+    {
+        "invoice_id": 1,
+        "booking_id": 1,
+        "invoice_date": "9/3/2025",
+        "tax_amount": 0,
+        "discount_amount": 0,
+        "total_payable": 66000
+    },
+    {
+        "invoice_id": 2,
+        "booking_id": 2,
+        "invoice_date": "",
+        "tax_amount": 0.0,
+        "discount_amount": 0.0,
+        "total_payable": 23808000.0
+    },
+    {
+        "invoice_id": 3,
+        "booking_id": 3,
+        "invoice_date": "09/03/2025",
+        "tax_amount": 0.0,
+        "discount_amount": 0.0,
+        "total_payable": 0.0
+    },
+    {
+        "invoice_id": 4,
+        "booking_id": 4,
+        "invoice_date": "09/03/2025",
+        "tax_amount": 0.0,
+        "discount_amount": 0.0,
+        "total_payable": 1536000.0
+    },
+    {
+        "invoice_id": 5,
+        "booking_id": 5,
+        "invoice_date": "09/03/2025",
+        "tax_amount": 0.0,
+        "discount_amount": 0.0,
+        "total_payable": 0.0
+    }
 ]

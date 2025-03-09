@@ -11,3 +11,6 @@ class JSONFileFactory:
         current_data.append(data)
         with open(filename, mode_file, encoding="utf-8") as file:
             json.dump(current_data, file, ensure_ascii=False, indent=4)
+    def update_file(self, filename, arrData):
+        with open(filename, "w", encoding="utf-8") as file:
+            json.dump(arrData, file, ensure_ascii=False, indent=4)

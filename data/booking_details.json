@@ -1,0 +1,55 @@
+[
+    {
+        "booking_details_id": 1,
+        "booking_id": 1,
+        "room_id": [
+            "catharsis1"
+        ],
+        "quantity": 1,
+        "unit_price": 33000,
+        "total_price": 33000
+    },
+    {
+        "booking_details_id": 2,
+        "booking_id": 2,
+        "room_id": [
+            "mutiny9"
+        ],
+        "quantity": 1,
+        "unit_price": 32000,
+        "total_price": 23808000.0
+    },
+    {
+        "booking_details_id": 3,
+        "booking_id": 3,
+        "room_id": [
+            "oasis10"
+        ],
+        "quantity": 1,
+        "unit_price": 29000,
+        "total_price": 0.0
+    },
+    {
+        "booking_details_id": 4,
+        "booking_id": 4,
+        "room_id": [
+            "mutiny4",
+            "mutiny1"
+        ],
+        "quantity": 2,
+        "unit_price": 32000,
+        "total_price": 1536000.0
+    },
+    {
+        "booking_details_id": 5,
+        "booking_id": 5,
+        "room_id": [
+            "genii6",
+            "genii2",
+            "genii5"
+        ],
+        "quantity": 3,
+        "unit_price": 34000,
+        "total_price": 0.0
+    }
+]

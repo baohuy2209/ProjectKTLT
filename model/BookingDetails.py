@@ -7,5 +7,5 @@ class BookingDetails:
         self.unit_price = unit_price
         self.total_price = total_price
     def __str__(self):
-        info = f"Information: \n +ID: {self.booking_details_id} \n +Booking id: {self.room_id} \n +Room id: {self.room_id} +\n Quantity: {self.quantity} \n +Unit price: {self.unit_price} +Total price: {self.total_price}"
+        info = f"Information: \n +ID: {self.booking_details_id} \n +Booking id: {self.booking_id} \n +Room id: {self.room_id} +\n Quantity: {self.quantity} \n +Unit price: {self.unit_price} \n +Total price: {self.total_price}"
         return info

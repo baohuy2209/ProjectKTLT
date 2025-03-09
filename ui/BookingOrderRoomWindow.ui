@@ -1,0 +1,672 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1227</width>
+    <height>906</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>1221</width>
+      <height>851</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>../assets/image/ORDER.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QDateTimeEdit" name="dateTimeEditCheckIn">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>330</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDateTimeEdit {
+    background-color: white;  /* Màu nền trắng */
+    color: #2c3e50; /* Màu chữ xanh đậm */
+    border: 2px solid #3498db; /* Viền xanh */
+    border-radius: 15px; /* Bo góc */
+    padding: 5px;
+    font-size: 25px;
+}
+QDateTimeEdit::drop-down {
+    border: none;
+    background: transparent;
+}
+QDateTimeEdit::up-button, QDateTimeEdit::down-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #3498db;
+}
+QDateTimeEdit::up-button:hover, QDateTimeEdit::down-button:hover {
+    background-color: #2980b9;
+}
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditTotal">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>530</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border: 2px solid #3498db;
+    border-radius: 15px;  /* Điều chỉnh giá trị để bo góc nhiều hơn */
+    padding: 5px;
+	font-size: 25px;
+	font-weight:bold;
+}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonContinue">
+    <property name="geometry">
+     <rect>
+      <x>490</x>
+      <y>690</y>
+      <width>601</width>
+      <height>71</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white; /* Màu chữ */
+    font-size: 16px;
+}
+QPushButton:hover {
+    color: blue; /* Khi hover */
+}
+QPushButton:pressed {
+    color: red; /* Khi nhấn */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Continue.png</normaloff>../assets/icons/Continue.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>600</width>
+      <height>500</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditQuantity">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>470</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border: 2px solid #3498db;
+    border-radius: 15px;  /* Điều chỉnh giá trị để bo góc nhiều hơn */
+    padding: 5px;
+	font-size: 25px;
+	font-weight:bold;
+}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_4">
+    <property name="geometry">
+     <rect>
+      <x>470</x>
+      <y>610</y>
+      <width>301</width>
+      <height>61</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white; /* Màu chữ */
+    font-size: 16px;
+}
+QPushButton:hover {
+    color: blue; /* Khi hover */
+}
+QPushButton:pressed {
+    color: red; /* Khi nhấn */
+}
+</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/Choose PsyConsultant.png</normaloff>../assets/icons/Choose PsyConsultant.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>300</width>
+      <height>500</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>320</y>
+      <width>231</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>VNI-Swiss-Condense</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel, QPushButton, QRadioButton {
+    font-family: &quot;VNI-Swiss-Condense&quot;; /* Chọn font cố định */
+    font-size: 35px;
+	color: rgb(255, 255, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Check-in Time:</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>390</y>
+      <width>261</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>VNI-Swiss-Condense</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel, QPushButton, QRadioButton {
+    font-family: &quot;VNI-Swiss-Condense&quot;; /* Chọn font cố định */
+    font-size: 35px;
+	color: rgb(255, 255, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Check-out Time:</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>460</y>
+      <width>161</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>VNI-Swiss-Condense</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel, QPushButton, QRadioButton {
+    font-family: &quot;VNI-Swiss-Condense&quot;; /* Chọn font cố định */
+    font-size: 35px;
+	color: rgb(255, 255, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Quantity:</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_7">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>250</y>
+      <width>111</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>VNI-Swiss-Condense</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel, QPushButton, QRadioButton {
+    font-family: &quot;VNI-Swiss-Condense&quot;; /* Chọn font cố định */
+    font-size: 35px;
+	color: rgb(255, 255, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Room:</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="comboBoxRoom">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>260</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QComboBox {
+    background-color: white;  /* Màu nền */
+    color: black;  /* Màu chữ */
+    font-size: 25px;
+    border: 2px solid #3498db; /* Viền xanh */
+    border-radius: 15px; /* Bo góc */
+    padding: 5px;
+}</string>
+    </property>
+    <item>
+     <property name="text">
+      <string>Select Room</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Catharsis</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Oasis</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Genii</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>Mutiny</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QDateTimeEdit" name="dateTimeEditCheckOut">
+    <property name="geometry">
+     <rect>
+      <x>720</x>
+      <y>400</y>
+      <width>391</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QDateTimeEdit {
+    background-color: white;  /* Màu nền trắng */
+    color: #2c3e50; /* Màu chữ xanh đậm */
+    border: 2px solid #3498db; /* Viền xanh */
+    border-radius: 15px; /* Bo góc */
+    padding: 5px;
+    font-size: 25px;
+}
+QDateTimeEdit::drop-down {
+    border: none;
+    background: transparent;
+}
+QDateTimeEdit::up-button, QDateTimeEdit::down-button {
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #3498db;
+}
+QDateTimeEdit::up-button:hover, QDateTimeEdit::down-button:hover {
+    background-color: #2980b9;
+}
+</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>530</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>VNI-Swiss-Condense</family>
+      <pointsize>-1</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLabel, QPushButton, QRadioButton {
+    font-family: &quot;VNI-Swiss-Condense&quot;; /* Chọn font cố định */
+    font-size: 35px;
+	color: rgb(255, 255, 255);
+}
+</string>
+    </property>
+    <property name="text">
+     <string>Total:</string>
+    </property>
+    <property name="textFormat">
+     <enum>Qt::AutoText</enum>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="lineEditChoosePsyConsultant">
+    <property name="geometry">
+     <rect>
+      <x>790</x>
+      <y>610</y>
+      <width>291</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QLineEdit {
+    border: 2px solid #3498db;
+    border-radius: 15px;  /* Điều chỉnh giá trị để bo góc nhiều hơn */
+    padding: 5px;
+	font-size: 25px;
+	font-weight:bold;
+}</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonHome">
+    <property name="geometry">
+     <rect>
+      <x>560</x>
+      <y>40</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/HOMEBOLD.png</normaloff>../assets/icons/HOMEBOLD.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>65</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPlayRoom">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>40</y>
+      <width>131</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/PLAY ROOM.png</normaloff>../assets/icons/PLAY ROOM.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>120</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonOrder">
+    <property name="geometry">
+     <rect>
+      <x>830</x>
+      <y>40</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/ORDER.png</normaloff>../assets/icons/ORDER.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>75</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonPrice">
+    <property name="geometry">
+     <rect>
+      <x>940</x>
+      <y>40</y>
+      <width>81</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/PRICE.png</normaloff>../assets/icons/PRICE.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>65</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonContact">
+    <property name="geometry">
+     <rect>
+      <x>1030</x>
+      <y>40</y>
+      <width>101</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/CONTACT.png</normaloff>../assets/icons/CONTACT.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>95</width>
+      <height>100</height>
+     </size>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButtonMore">
+    <property name="geometry">
+     <rect>
+      <x>1130</x>
+      <y>40</y>
+      <width>71</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>20</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+    background-color: transparent;
+    border: none;
+    color: white;  /* Màu chữ */
+}</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="icon">
+     <iconset>
+      <normaloff>../assets/icons/3 GẠCH.png</normaloff>../assets/icons/3 GẠCH.png</iconset>
+    </property>
+    <property name="iconSize">
+     <size>
+      <width>50</width>
+      <height>70</height>
+     </size>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1227</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

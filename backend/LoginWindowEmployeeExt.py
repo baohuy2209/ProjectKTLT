@@ -1,6 +1,10 @@
+import webbrowser
+
 from PyQt6.QtWidgets import QMessageBox, QMainWindow
 
+from backend.AdminWindowExt import AdminWindowExt
 from backend.HomeWindowExt import HomeWindowExt
+from constant.constant import facebook_link, phone, email
 from data_access_layer.UserDAL import UserDAL
 from ui.LoginWindowEmployee import Ui_MainWindow
 
@@ -8,7 +12,7 @@ from ui.LoginWindowEmployee import Ui_MainWindow
 class LoginWindowEmployeeExt(Ui_MainWindow):
     def __init__(self):
         self.user_dal = UserDAL()
-        self.home_window = None
+        self.admin_window = None
     def setupUi(self, MainWindow):
         super().setupUi(MainWindow)
         self.MainWindow = MainWindow
@@ -49,17 +53,33 @@ class LoginWindowEmployeeExt(Ui_MainWindow):
             button = msgBox.exec()
             if button == QMessageBox.StandardButton.Ok:
                 HomeWindow = QMainWindow()
-                self.home_window = HomeWindowExt()
-                self.home_window.current_user = login_emp
-                self.home_window.setupUi(HomeWindow)
-                self.home_window.show()
+                self.admin_window = AdminWindowExt()
+                self.admin_window.current_user = login_emp
+                self.admin_window.setupUi(HomeWindow)
+                self.admin_window.show()
     def show_recover_password(self):
         pass
     def show_facebook_info(self):
-        pass
+        webbrowser.open(facebook_link)
     def show_mail(self):
-        pass
+        msg_box = QMessageBox()
+        msg_box.setIcon(QMessageBox.Icon.Information)
+        msg_box.setText(
+            f"Nếu bạn có hỗ trợ trong quá trình sử dụng ứng dụng thì hãy liên hiện chúng tôi thông qua email: {email}\n Chúng tôi xin chân thành cảm ơn.")
+        msg_box.setWindowTitle("Contact us")
+        msg_box.setStandardButtons(QMessageBox.StandardButton.Close)
+        button = msg_box.exec()
+        if button == QMessageBox.StandardButton.Close:
+            msg_box.close()
     def show_phonenumber(self):
-        pass
+        msg_box = QMessageBox()
+        msg_box.setIcon(QMessageBox.Icon.Information)
+        msg_box.setText(
+            f"Nếu bạn có hỗ trợ trong quá trình sử dụng ứng dụng thì hãy liên hiện chúng tôi thông qua số điện thoại: {phone}\n Chúng tôi xin chân thành cảm ơn.")
+        msg_box.setWindowTitle("Contact us")
+        msg_box.setStandardButtons(QMessageBox.StandardButton.Close)
+        button = msg_box.exec()
+        if button == QMessageBox.StandardButton.Close:
+            msg_box.close()
     def show(self):
         self.MainWindow.show()
