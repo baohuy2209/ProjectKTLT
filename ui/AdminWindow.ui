@@ -3684,7 +3684,7 @@ padding: 5px;
                                                 <string/>
                                                </property>
                                                <property name="pixmap">
-                                                <pixmap resource="../assets/image/Images.qrc">:/Image/MẶT SAU (2) (1).png</pixmap>
+                                                <pixmap resource="../assets/image/Images.qrc">:/Image/mattruoc.jpg</pixmap>
                                                </property>
                                               </widget>
                                              </item>
@@ -3743,7 +3743,7 @@ padding: 5px;
                                                 <string/>
                                                </property>
                                                <property name="pixmap">
-                                                <pixmap resource="../assets/image/Images.qrc">:/Image/MẶT TRƯỚC (2) (1).jpg</pixmap>
+                                                <pixmap resource="../assets/image/Images.qrc">:/Image/matsau.png</pixmap>
                                                </property>
                                               </widget>
                                              </item>

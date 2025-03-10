@@ -1,22 +1,9 @@
 <RCC>
   <qresource prefix="Image">
-    <file>MẶT SAU (2) (1).png</file>
-    <file>MẶT TRƯỚC (2) (1).jpg</file>
-    <file>MẶT TRƯỚC (2).jpg</file>
-    <file>MẶT SAU (2).png</file>
-    <file>MẶT SAU.png</file>
-    <file>MẶT TRƯỚC (1).png</file>
-    <file>MẶT TRƯỚC (2).png</file>
-    <file>Picture1.png</file>
-    <file>MẶT SAU (1).png</file>
-    <file>MẶT SAU.png</file>
-    <file>MẶT TRƯỚC.png</file>
-    <file>Ảnh chụp màn hình 2025-03-02 142158 (1).png</file>
+    <file>matsau.png</file>
+    <file>mattruoc.jpg</file>
     <file>Catharsis.jpg</file>
     <file>Genii.jpg</file>
-    <file>màu nền 2.jpg</file>
-    <file>màu nền pastel.jpg</file>
-    <file>màu nền.jpg</file>
     <file>Mutiny.jpg</file>
     <file>Oasis.jpg</file>
     <file>BACKGROUND.jpg</file>
