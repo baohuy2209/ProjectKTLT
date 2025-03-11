@@ -2,7 +2,7 @@ from PyQt6.QtWidgets import QApplication, QMainWindow
 
 from backend.AdminWindowExt import AdminWindowExt
 from assets.image import Images_rc
-from assets import icons_rc
+from assets import Icons_rc
 
 app=QApplication([])
 myWindow=AdminWindowExt()
