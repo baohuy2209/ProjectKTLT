@@ -274,7 +274,7 @@
         "name": "Genii 8",
         "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
         "picture": "",
-        "status": "available",
+        "status": "full",
         "unit_price": 34000,
         "room_type": "Genii",
         "musical_instruments": "Guitar, Piano, Drum"
@@ -284,7 +284,7 @@
         "name": "Genii 9",
         "description": "The environment allows freedom of creativity, turning 'crazy' ideas into reality.",
         "picture": "",
-        "status": "available",
+        "status": "full",
         "unit_price": 34000,
         "room_type": "Genii",
         "musical_instruments": "Guitar, Piano, Drum"

@@ -38,5 +38,13 @@
         "customer_id": "user5",
         "employee_id": "user3",
         "promotion_id": ""
+    },
+    {
+        "booking_id": 6,
+        "check_in_date": "01/01/2000 00:00:00",
+        "check_out_date": "02/01/2000 00:00:00",
+        "customer_id": "user5",
+        "employee_id": "user3",
+        "promotion_id": ""
     }
 ]

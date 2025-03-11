@@ -38,5 +38,13 @@
         "tax_amount": 0.0,
         "discount_amount": 0.0,
         "total_payable": 0.0
+    },
+    {
+        "invoice_id": 6,
+        "booking_id": 6,
+        "invoice_date": "11/03/2025",
+        "tax_amount": 0.0,
+        "discount_amount": 0.0,
+        "total_payable": 1632000.0
     }
 ]

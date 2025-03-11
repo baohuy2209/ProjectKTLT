@@ -43,7 +43,7 @@ class Ui_MainWindow(object):
 "background-color: transparernt;\n"
 "}\n"
 "#frame_lelfmenu{\n"
-"background-image: url(:/Image/BACKGROUND.jpg);\n"
+"background-image: url(\"C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/BACKGROUND.jpg\");\n"
 "}\n"
 "#widget_headerframe, #widget_mainframe, #frame_profile{\n"
 "background-color: #fefeff;\n"
@@ -85,7 +85,7 @@ class Ui_MainWindow(object):
 "color: #fefeff\n"
 "}\n"
 "#frame_below1{\n"
-"background-image: url(:/Image/background2.jpg);\n"
+"background-image: url(\"C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/background2.jpg\");\n"
 "border-radius:10px\n"
 "}\n"
 "#pushButton_signup{\n"
@@ -104,10 +104,10 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "#frame_mutiny{\n"
-"    border-image: url(:/Image/Mutiny.jpg) 0 0 0 0 stretch stretch;\n"
+"    border-image: url(\"C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Mutiny.jpg\") 0 0 0 0 stretch stretch;\n"
 "}\n"
 "#frame_catharsis {\n"
-"    border-image: url(:/Image/Catharsis.jpg) 0 0 0 0 stretch stretch;\n"
+"    border-image: url(\"C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Catharsis.jpg\") 0 0 0 0 stretch stretch;\n"
 "}\n"
 "#frame_genii {\n"
 "    border-image: url(:/Image/Genii.jpg) 0 0 0 0 stretch stretch;\n"
@@ -1746,7 +1746,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_39.setObjectName("horizontalLayout_39")
         self.label_23 = QtWidgets.QLabel(parent=self.frame_50off)
         self.label_23.setText("")
-        self.label_23.setPixmap(QtGui.QPixmap(":/Image/MẶT SAU (2) (1).png"))
+        self.label_23.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/image/matsau.png"))
         self.label_23.setObjectName("label_23")
         self.horizontalLayout_39.addWidget(self.label_23, 0, QtCore.Qt.AlignmentFlag.AlignHCenter|QtCore.Qt.AlignmentFlag.AlignVCenter)
         self.horizontalLayout_40.addWidget(self.frame_50off)
@@ -1772,7 +1772,7 @@ class Ui_MainWindow(object):
         self.horizontalLayout_41.setObjectName("horizontalLayout_41")
         self.label_21 = QtWidgets.QLabel(parent=self.frame_trialcustomer)
         self.label_21.setText("")
-        self.label_21.setPixmap(QtGui.QPixmap(":/Image/MẶT TRƯỚC (2) (1).jpg"))
+        self.label_21.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/image/mattruoc.jpg"))
         self.label_21.setObjectName("label_21")
         self.horizontalLayout_41.addWidget(self.label_21, 0, QtCore.Qt.AlignmentFlag.AlignHCenter|QtCore.Qt.AlignmentFlag.AlignTop)
         self.verticalLayout_62.addWidget(self.frame_trialcustomer)
@@ -2558,10 +2558,10 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget_main.setCurrentIndex(3)
+        self.stackedWidget_main.setCurrentIndex(2)
         self.stackedWidget_quanlinhanvien.setCurrentIndex(0)
         self.stackedWidget.setCurrentIndex(0)
-        self.stackedWidget_2.setCurrentIndex(1)
+        self.stackedWidget_2.setCurrentIndex(0)
         self.stackedWidget_3.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 

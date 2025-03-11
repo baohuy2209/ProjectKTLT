@@ -47,7 +47,7 @@ label_panacea{
 background-color: transparernt;
 }
 #frame_lelfmenu{
-background-image: url(:/Image/BACKGROUND.jpg);
+background-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/BACKGROUND.jpg&quot;);
 }
 #widget_headerframe, #widget_mainframe, #frame_profile{
 background-color: #fefeff;
@@ -89,7 +89,7 @@ padding: 15px
 color: #fefeff
 }
 #frame_below1{
-background-image: url(:/Image/background2.jpg);
+background-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/background2.jpg&quot;);
 border-radius:10px
 }
 #pushButton_signup{
@@ -108,16 +108,16 @@ padding: 10px
 
 
 #frame_mutiny{
-    border-image: url(:/Image/Mutiny.jpg) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Mutiny.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_catharsis {
-    border-image: url(:/Image/Catharsis.jpg) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Catharsis.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_genii {
-    border-image: url(:/Image/Genii.jpg) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Genii.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_oasis {
-    border-image: url(:/Image/Oasis.jpg) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Oasis.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #lineEdit_roomname, #lineEdit_roomtype, #lineEdit_capacity, #lineEdit_priceperhour, #lineEdit_roomstatus{
 background: transparent;
@@ -344,7 +344,7 @@ padding: 5px;
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap resource="../assets/image/Images.qrc">:/Image/TITLE (3).png</pixmap>
+                <pixmap>:/Image/TITLE (3).png</pixmap>
                </property>
               </widget>
              </item>
@@ -467,7 +467,7 @@ padding: 5px;
                     </brush>
                    </property>
                    <property name="icon">
-                    <iconset resource="../Assets/Icons.qrc">
+                    <iconset>
                      <normaloff>:/WhiteIcons/Icons/whiteicons/award.svg</normaloff>:/WhiteIcons/Icons/whiteicons/award.svg</iconset>
                    </property>
                   </item>
@@ -502,7 +502,7 @@ padding: 5px;
                     </brush>
                    </property>
                    <property name="icon">
-                    <iconset resource="../Assets/Icons.qrc">
+                    <iconset>
                      <normaloff>:/WhiteIcons/Icons/whiteicons/cast.svg</normaloff>:/WhiteIcons/Icons/whiteicons/cast.svg</iconset>
                    </property>
                   </item>
@@ -537,7 +537,7 @@ padding: 5px;
                     </brush>
                    </property>
                    <property name="icon">
-                    <iconset resource="../Assets/Icons.qrc">
+                    <iconset>
                      <normaloff>:/WhiteIcons/Icons/whiteicons/paperclip.svg</normaloff>:/WhiteIcons/Icons/whiteicons/paperclip.svg</iconset>
                    </property>
                   </item>
@@ -572,7 +572,7 @@ padding: 5px;
                     </brush>
                    </property>
                    <property name="icon">
-                    <iconset resource="../Assets/Icons.qrc">
+                    <iconset>
                      <normaloff>:/WhiteIcons/Icons/whiteicons/server.svg</normaloff>:/WhiteIcons/Icons/whiteicons/server.svg</iconset>
                    </property>
                   </item>
@@ -607,7 +607,7 @@ padding: 5px;
                     </brush>
                    </property>
                    <property name="icon">
-                    <iconset resource="../Assets/Icons.qrc">
+                    <iconset>
                      <normaloff>:/WhiteIcons/Icons/whiteicons/dollar-sign.svg</normaloff>:/WhiteIcons/Icons/whiteicons/dollar-sign.svg</iconset>
                    </property>
                   </item>
@@ -740,7 +740,7 @@ padding: 5px;
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="../Assets/Icons.qrc">
+                <iconset>
                  <normaloff>:/BlueIcons/Icons/buleicons/menu.svg</normaloff>:/BlueIcons/Icons/buleicons/menu.svg</iconset>
                </property>
                <property name="iconSize">
@@ -846,7 +846,7 @@ padding: 5px;
                    <string/>
                   </property>
                   <property name="pixmap">
-                   <pixmap resource="../Assets/Icons.qrc">:/BlueIcons/Icons/buleicons/search.svg</pixmap>
+                   <pixmap>:/BlueIcons/Icons/buleicons/search.svg</pixmap>
                   </property>
                   <property name="scaledContents">
                    <bool>true</bool>
@@ -913,7 +913,7 @@ padding: 5px;
                 <string/>
                </property>
                <property name="icon">
-                <iconset resource="../Assets/Icons.qrc">
+                <iconset>
                  <normaloff>:/BlueIcons/Icons/buleicons/user.svg</normaloff>:/BlueIcons/Icons/buleicons/user.svg</iconset>
                </property>
                <property name="iconSize">
@@ -990,7 +990,7 @@ padding: 5px;
                 <item>
                  <widget class="QStackedWidget" name="stackedWidget_main">
                   <property name="currentIndex">
-                   <number>3</number>
+                   <number>2</number>
                   </property>
                   <widget class="QWidget" name="page_customermanagement">
                    <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -1274,7 +1274,7 @@ padding: 5px;
                                  </font>
                                 </property>
                                 <property name="icon">
-                                 <iconset resource="../Assets/Icons.qrc">
+                                 <iconset>
                                   <normaloff>:/BlueIcons/Icons/buleicons/list.svg</normaloff>:/BlueIcons/Icons/buleicons/list.svg</iconset>
                                 </property>
                                </item>
@@ -1330,7 +1330,7 @@ padding: 5px;
                                  </font>
                                 </property>
                                 <property name="icon">
-                                 <iconset resource="../Assets/Icons.qrc">
+                                 <iconset>
                                   <normaloff>:/BlueIcons/Icons/buleicons/plus-circle.svg</normaloff>:/BlueIcons/Icons/buleicons/plus-circle.svg</iconset>
                                 </property>
                                </item>
@@ -2626,7 +2626,7 @@ padding: 5px;
                                              <string>Sign Up</string>
                                             </property>
                                             <property name="icon">
-                                             <iconset resource="../Assets/Icons.qrc">
+                                             <iconset>
                                               <normaloff>:/WhiteIcons/Icons/whiteicons/check-circle.svg</normaloff>:/WhiteIcons/Icons/whiteicons/check-circle.svg</iconset>
                                             </property>
                                             <property name="iconSize">
@@ -2653,7 +2653,7 @@ padding: 5px;
                                              <string>Cancel</string>
                                             </property>
                                             <property name="icon">
-                                             <iconset resource="../Assets/Icons.qrc">
+                                             <iconset>
                                               <normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</iconset>
                                             </property>
                                             <property name="iconSize">
@@ -2775,7 +2775,7 @@ padding: 5px;
                              <item>
                               <widget class="QStackedWidget" name="stackedWidget">
                                <property name="currentIndex">
-                                <number>0</number>
+                                <number>3</number>
                                </property>
                                <widget class="QWidget" name="page_1">
                                 <layout class="QHBoxLayout" name="horizontalLayout_16">
@@ -3408,7 +3408,7 @@ padding: 5px;
                                    <string>Create Room</string>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="../Assets/Icons.qrc">
+                                   <iconset>
                                     <normaloff>:/WhiteIcons/Icons/whiteicons/folder-plus.svg</normaloff>:/WhiteIcons/Icons/whiteicons/folder-plus.svg</iconset>
                                   </property>
                                  </widget>
@@ -3429,7 +3429,7 @@ padding: 5px;
                                    <string>Cancel</string>
                                   </property>
                                   <property name="icon">
-                                   <iconset resource="../Assets/Icons.qrc">
+                                   <iconset>
                                     <normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</iconset>
                                   </property>
                                  </widget>
@@ -3644,7 +3644,7 @@ padding: 5px;
                                       <item>
                                        <widget class="QStackedWidget" name="stackedWidget_2">
                                         <property name="currentIndex">
-                                         <number>1</number>
+                                         <number>0</number>
                                         </property>
                                         <widget class="QWidget" name="page_7">
                                          <layout class="QHBoxLayout" name="horizontalLayout_40">
@@ -3684,7 +3684,7 @@ padding: 5px;
                                                 <string/>
                                                </property>
                                                <property name="pixmap">
-                                                <pixmap resource="../assets/image/Images.qrc">:/Image/MẶT SAU (2) (1).png</pixmap>
+                                                <pixmap>../assets/image/matsau.png</pixmap>
                                                </property>
                                               </widget>
                                              </item>
@@ -3743,7 +3743,7 @@ padding: 5px;
                                                 <string/>
                                                </property>
                                                <property name="pixmap">
-                                                <pixmap resource="../assets/image/Images.qrc">:/Image/MẶT TRƯỚC (2) (1).jpg</pixmap>
+                                                <pixmap>../assets/image/mattruoc.jpg</pixmap>
                                                </property>
                                               </widget>
                                              </item>
@@ -4330,7 +4330,7 @@ padding: 5px;
                                             <string>Create</string>
                                            </property>
                                            <property name="icon">
-                                            <iconset resource="../Assets/Icons.qrc">
+                                            <iconset>
                                              <normaloff>:/WhiteIcons/Icons/whiteicons/arrow-down-circle.svg</normaloff>:/WhiteIcons/Icons/whiteicons/arrow-down-circle.svg</iconset>
                                            </property>
                                            <property name="iconSize">
@@ -4369,7 +4369,7 @@ padding: 5px;
                                             <string>Reset</string>
                                            </property>
                                            <property name="icon">
-                                            <iconset resource="../Assets/Icons.qrc">
+                                            <iconset>
                                              <normaloff>:/WhiteIcons/Icons/whiteicons/corner-up-left.svg</normaloff>:/WhiteIcons/Icons/whiteicons/corner-up-left.svg</iconset>
                                            </property>
                                            <property name="iconSize">
@@ -4408,7 +4408,7 @@ padding: 5px;
                                             <string>Cancel</string>
                                            </property>
                                            <property name="icon">
-                                            <iconset resource="../Assets/Icons.qrc">
+                                            <iconset>
                                              <normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</iconset>
                                            </property>
                                            <property name="iconSize">
@@ -4666,7 +4666,7 @@ padding: 5px;
                               </font>
                              </property>
                              <property name="icon">
-                              <iconset resource="../Assets/Icons.qrc">
+                              <iconset>
                                <normaloff>:/BlueIcons/Icons/buleicons/book-open.svg</normaloff>:/BlueIcons/Icons/buleicons/book-open.svg</iconset>
                              </property>
                             </item>
@@ -4707,7 +4707,7 @@ padding: 5px;
                               </font>
                              </property>
                              <property name="icon">
-                              <iconset resource="../Assets/Icons.qrc">
+                              <iconset>
                                <normaloff>:/BlueIcons/Icons/buleicons/copy.svg</normaloff>:/BlueIcons/Icons/buleicons/copy.svg</iconset>
                              </property>
                             </item>
@@ -5372,7 +5372,7 @@ padding: 5px;
                                        <string>Create Invoice</string>
                                       </property>
                                       <property name="icon">
-                                       <iconset resource="../Assets/Icons.qrc">
+                                       <iconset>
                                         <normaloff>:/WhiteIcons/Icons/whiteicons/folder-plus.svg</normaloff>:/WhiteIcons/Icons/whiteicons/folder-plus.svg</iconset>
                                       </property>
                                      </widget>
@@ -5393,7 +5393,7 @@ padding: 5px;
                                        <string>Cancel</string>
                                       </property>
                                       <property name="icon">
-                                       <iconset resource="../Assets/Icons.qrc">
+                                       <iconset>
                                         <normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</iconset>
                                       </property>
                                      </widget>
@@ -5516,7 +5516,7 @@ padding: 5px;
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap resource="../assets/image/Images.qrc">:/Image/pngtree-user-cartoon-avatar-pattern-flat-avatar-png-image_4492883.jpg</pixmap>
+             <pixmap>:/Image/pngtree-user-cartoon-avatar-pattern-flat-avatar-png-image_4492883.jpg</pixmap>
             </property>
             <property name="scaledContents">
              <bool>true</bool>
@@ -5537,7 +5537,7 @@ padding: 5px;
              <string>My Profile </string>
             </property>
             <property name="icon">
-             <iconset resource="../Assets/Icons.qrc">
+             <iconset>
               <normaloff>:/BlueIcons/Icons/buleicons/log-out.svg</normaloff>:/BlueIcons/Icons/buleicons/log-out.svg</iconset>
             </property>
            </widget>
@@ -5556,7 +5556,7 @@ padding: 5px;
              <string>Log Out</string>
             </property>
             <property name="icon">
-             <iconset resource="../Assets/Icons.qrc">
+             <iconset>
               <normaloff>:/BlueIcons/Icons/buleicons/user.svg</normaloff>:/BlueIcons/Icons/buleicons/user.svg</iconset>
             </property>
            </widget>
@@ -5570,9 +5570,6 @@ padding: 5px;
    </layout>
   </widget>
  </widget>
- <resources>
-  <include location="../assets/image/Images.qrc"/>
-  <include location="../Assets/Icons.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>

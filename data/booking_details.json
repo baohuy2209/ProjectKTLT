@@ -51,5 +51,16 @@
         "quantity": 3,
         "unit_price": 34000,
         "total_price": 0.0
+    },
+    {
+        "booking_details_id": 6,
+        "booking_id": 6,
+        "room_id": [
+            "genii9",
+            "genii8"
+        ],
+        "quantity": 2,
+        "unit_price": 34000,
+        "total_price": 1632000.0
     }
 ]
