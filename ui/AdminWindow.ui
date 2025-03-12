@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1670</width>
-    <height>786</height>
+    <height>797</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -30,6 +30,14 @@
 color: #000;
 border: none
 }
+
+#listWidget_sidebar{
+color: #fefeff;
+font-size: 14pt;
+font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+}
+
 #lineEdit_writesearch{
 background: transparent;
 min-width: 200px;
@@ -47,7 +55,7 @@ label_panacea{
 background-color: transparernt;
 }
 #frame_lelfmenu{
-background-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/BACKGROUND.jpg&quot;);
+background-image: url(&quot;D:/ProjectKTLT/assets/image/BACKGROUND.jpg&quot;);
 }
 #widget_headerframe, #widget_mainframe, #frame_profile{
 background-color: #fefeff;
@@ -89,7 +97,7 @@ padding: 15px
 color: #fefeff
 }
 #frame_below1{
-background-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/background2.jpg&quot;);
+background-image: url(&quot;D:/ProjectKTLT/assets/image/background2.jpg&quot;);
 border-radius:10px
 }
 #pushButton_signup{
@@ -108,16 +116,16 @@ padding: 10px
 
 
 #frame_mutiny{
-    border-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Mutiny.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;D:/ProjectKTLT/assets/image/Mutiny.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_catharsis {
-    border-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Catharsis.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;D:/ProjectKTLT/assets/image/Catharsis.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_genii {
-    border-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Genii.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;D:/ProjectKTLT/assets/image/Genii.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_oasis {
-    border-image: url(&quot;C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Oasis.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;D:/ProjectKTLT/assets/image/Oasis.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #lineEdit_roomname, #lineEdit_roomtype, #lineEdit_capacity, #lineEdit_priceperhour, #lineEdit_roomstatus{
 background: transparent;
@@ -344,7 +352,7 @@ padding: 5px;
                 <string/>
                </property>
                <property name="pixmap">
-                <pixmap>:/Image/TITLE (3).png</pixmap>
+                <pixmap>../assets/image/TITLE (3).png</pixmap>
                </property>
               </widget>
              </item>
@@ -413,6 +421,14 @@ padding: 5px;
                     <height>0</height>
                    </size>
                   </property>
+                  <property name="font">
+                   <font>
+                    <family>Roboto,sans-serif</family>
+                    <pointsize>14</pointsize>
+                    <weight>87</weight>
+                    <bold>true</bold>
+                   </font>
+                  </property>
                   <property name="cursor" stdset="0">
                    <cursorShape>PointingHandCursor</cursorShape>
                   </property>
@@ -438,16 +454,6 @@ padding: 5px;
                   </item>
                   <item>
                    <property name="text">
-                    <string/>
-                   </property>
-                  </item>
-                  <item>
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </item>
-                  <item>
-                   <property name="text">
                     <string>Customer Management</string>
                    </property>
                    <property name="font">
@@ -468,7 +474,7 @@ padding: 5px;
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>:/WhiteIcons/Icons/whiteicons/award.svg</normaloff>:/WhiteIcons/Icons/whiteicons/award.svg</iconset>
+                     <normaloff>../assets/icons/whiteicons/award.svg</normaloff>../assets/icons/whiteicons/award.svg</iconset>
                    </property>
                   </item>
                   <item>
@@ -503,7 +509,7 @@ padding: 5px;
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>:/WhiteIcons/Icons/whiteicons/cast.svg</normaloff>:/WhiteIcons/Icons/whiteicons/cast.svg</iconset>
+                     <normaloff>../assets/icons/whiteicons/cast.svg</normaloff>../assets/icons/whiteicons/cast.svg</iconset>
                    </property>
                   </item>
                   <item>
@@ -538,7 +544,7 @@ padding: 5px;
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>:/WhiteIcons/Icons/whiteicons/paperclip.svg</normaloff>:/WhiteIcons/Icons/whiteicons/paperclip.svg</iconset>
+                     <normaloff>../assets/icons/whiteicons/paperclip.svg</normaloff>../assets/icons/whiteicons/paperclip.svg</iconset>
                    </property>
                   </item>
                   <item>
@@ -573,7 +579,7 @@ padding: 5px;
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>:/WhiteIcons/Icons/whiteicons/server.svg</normaloff>:/WhiteIcons/Icons/whiteicons/server.svg</iconset>
+                     <normaloff>../assets/icons/whiteicons/server.svg</normaloff>../assets/icons/whiteicons/server.svg</iconset>
                    </property>
                   </item>
                   <item>
@@ -608,27 +614,7 @@ padding: 5px;
                    </property>
                    <property name="icon">
                     <iconset>
-                     <normaloff>:/WhiteIcons/Icons/whiteicons/dollar-sign.svg</normaloff>:/WhiteIcons/Icons/whiteicons/dollar-sign.svg</iconset>
-                   </property>
-                  </item>
-                  <item>
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </item>
-                  <item>
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </item>
-                  <item>
-                   <property name="text">
-                    <string/>
-                   </property>
-                  </item>
-                  <item>
-                   <property name="text">
-                    <string/>
+                     <normaloff>../assets/icons/whiteicons/dollar-sign.svg</normaloff>../assets/icons/whiteicons/dollar-sign.svg</iconset>
                    </property>
                   </item>
                   <item>
@@ -741,7 +727,7 @@ padding: 5px;
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>:/BlueIcons/Icons/buleicons/menu.svg</normaloff>:/BlueIcons/Icons/buleicons/menu.svg</iconset>
+                 <normaloff>../assets/icons/buleicons/menu.svg</normaloff>../assets/icons/buleicons/menu.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -846,7 +832,7 @@ padding: 5px;
                    <string/>
                   </property>
                   <property name="pixmap">
-                   <pixmap>:/BlueIcons/Icons/buleicons/search.svg</pixmap>
+                   <pixmap>../assets/icons/buleicons/search.svg</pixmap>
                   </property>
                   <property name="scaledContents">
                    <bool>true</bool>
@@ -914,7 +900,7 @@ padding: 5px;
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>:/BlueIcons/Icons/buleicons/user.svg</normaloff>:/BlueIcons/Icons/buleicons/user.svg</iconset>
+                 <normaloff>../assets/icons/buleicons/user.svg</normaloff>../assets/icons/buleicons/user.svg</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -990,7 +976,7 @@ padding: 5px;
                 <item>
                  <widget class="QStackedWidget" name="stackedWidget_main">
                   <property name="currentIndex">
-                   <number>2</number>
+                   <number>1</number>
                   </property>
                   <widget class="QWidget" name="page_customermanagement">
                    <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -1275,7 +1261,7 @@ padding: 5px;
                                 </property>
                                 <property name="icon">
                                  <iconset>
-                                  <normaloff>:/BlueIcons/Icons/buleicons/list.svg</normaloff>:/BlueIcons/Icons/buleicons/list.svg</iconset>
+                                  <normaloff>../assets/icons/buleicons/list.svg</normaloff>../assets/icons/buleicons/list.svg</iconset>
                                 </property>
                                </item>
                               </widget>
@@ -1331,7 +1317,7 @@ padding: 5px;
                                 </property>
                                 <property name="icon">
                                  <iconset>
-                                  <normaloff>:/BlueIcons/Icons/buleicons/plus-circle.svg</normaloff>:/BlueIcons/Icons/buleicons/plus-circle.svg</iconset>
+                                  <normaloff>../assets/icons/buleicons/plus-circle.svg</normaloff>../assets/icons/buleicons/plus-circle.svg</iconset>
                                 </property>
                                </item>
                               </widget>
@@ -1396,7 +1382,7 @@ padding: 5px;
                              <item>
                               <widget class="QStackedWidget" name="stackedWidget_quanlinhanvien">
                                <property name="currentIndex">
-                                <number>0</number>
+                                <number>1</number>
                                </property>
                                <widget class="QWidget" name="page_listofemployees">
                                 <layout class="QHBoxLayout" name="horizontalLayout_12">
@@ -2775,7 +2761,7 @@ padding: 5px;
                              <item>
                               <widget class="QStackedWidget" name="stackedWidget">
                                <property name="currentIndex">
-                                <number>3</number>
+                                <number>0</number>
                                </property>
                                <widget class="QWidget" name="page_1">
                                 <layout class="QHBoxLayout" name="horizontalLayout_16">
@@ -3409,7 +3395,7 @@ padding: 5px;
                                   </property>
                                   <property name="icon">
                                    <iconset>
-                                    <normaloff>:/WhiteIcons/Icons/whiteicons/folder-plus.svg</normaloff>:/WhiteIcons/Icons/whiteicons/folder-plus.svg</iconset>
+                                    <normaloff>../assets/icons/whiteicons/folder-plus.svg</normaloff>../assets/icons/whiteicons/folder-plus.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
@@ -3430,7 +3416,7 @@ padding: 5px;
                                   </property>
                                   <property name="icon">
                                    <iconset>
-                                    <normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</iconset>
+                                    <normaloff>../assets/icons/whiteicons/delete.svg</normaloff>../assets/icons/whiteicons/delete.svg</iconset>
                                   </property>
                                  </widget>
                                 </item>
@@ -3644,7 +3630,7 @@ padding: 5px;
                                       <item>
                                        <widget class="QStackedWidget" name="stackedWidget_2">
                                         <property name="currentIndex">
-                                         <number>0</number>
+                                         <number>1</number>
                                         </property>
                                         <widget class="QWidget" name="page_7">
                                          <layout class="QHBoxLayout" name="horizontalLayout_40">
@@ -4667,7 +4653,7 @@ padding: 5px;
                              </property>
                              <property name="icon">
                               <iconset>
-                               <normaloff>:/BlueIcons/Icons/buleicons/book-open.svg</normaloff>:/BlueIcons/Icons/buleicons/book-open.svg</iconset>
+                               <normaloff>../assets/icons/buleicons/book-open.svg</normaloff>../assets/icons/buleicons/book-open.svg</iconset>
                              </property>
                             </item>
                            </widget>
@@ -4708,7 +4694,7 @@ padding: 5px;
                              </property>
                              <property name="icon">
                               <iconset>
-                               <normaloff>:/BlueIcons/Icons/buleicons/copy.svg</normaloff>:/BlueIcons/Icons/buleicons/copy.svg</iconset>
+                               <normaloff>../assets/icons/buleicons/copy.svg</normaloff>../assets/icons/buleicons/copy.svg</iconset>
                              </property>
                             </item>
                            </widget>
@@ -5373,7 +5359,7 @@ padding: 5px;
                                       </property>
                                       <property name="icon">
                                        <iconset>
-                                        <normaloff>:/WhiteIcons/Icons/whiteicons/folder-plus.svg</normaloff>:/WhiteIcons/Icons/whiteicons/folder-plus.svg</iconset>
+                                        <normaloff>../assets/icons/whiteicons/folder-plus.svg</normaloff>../assets/icons/whiteicons/folder-plus.svg</iconset>
                                       </property>
                                      </widget>
                                     </item>
@@ -5394,7 +5380,7 @@ padding: 5px;
                                       </property>
                                       <property name="icon">
                                        <iconset>
-                                        <normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</normaloff>:/WhiteIcons/Icons/whiteicons/delete.svg</iconset>
+                                        <normaloff>../assets/icons/whiteicons/delete.svg</normaloff>../assets/icons/whiteicons/delete.svg</iconset>
                                       </property>
                                      </widget>
                                     </item>
@@ -5516,7 +5502,7 @@ padding: 5px;
              <string/>
             </property>
             <property name="pixmap">
-             <pixmap>:/Image/pngtree-user-cartoon-avatar-pattern-flat-avatar-png-image_4492883.jpg</pixmap>
+             <pixmap>../assets/image/pngtree-user-cartoon-avatar-pattern-flat-avatar-png-image_4492883.jpg</pixmap>
             </property>
             <property name="scaledContents">
              <bool>true</bool>
@@ -5538,7 +5524,7 @@ padding: 5px;
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>:/BlueIcons/Icons/buleicons/log-out.svg</normaloff>:/BlueIcons/Icons/buleicons/log-out.svg</iconset>
+              <normaloff>../assets/icons/buleicons/log-out.svg</normaloff>../assets/icons/buleicons/log-out.svg</iconset>
             </property>
            </widget>
           </item>
@@ -5557,7 +5543,7 @@ padding: 5px;
             </property>
             <property name="icon">
              <iconset>
-              <normaloff>:/BlueIcons/Icons/buleicons/user.svg</normaloff>:/BlueIcons/Icons/buleicons/user.svg</iconset>
+              <normaloff>../assets/icons/buleicons/user.svg</normaloff>../assets/icons/buleicons/user.svg</iconset>
             </property>
            </widget>
           </item>

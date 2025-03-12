@@ -44,7 +44,7 @@
         "name": "Catharsis 5",
         "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
         "picture": "",
-        "status": "available",
+        "status": "full",
         "unit_price": 33000,
         "room_type": "Catharsis",
         "natural_sound_effects": ""
@@ -398,5 +398,25 @@
         "unit_price": 32000,
         "room_type": "Mutiny",
         "game_equipment": "VR Headset, Joystick"
+    },
+    {
+        "room_id": "catharsis11",
+        "name": "Catharsis 11",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
+    },
+    {
+        "room_id": "catharsis12",
+        "name": "Catharsis 12",
+        "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 33000,
+        "room_type": "Catharsis",
+        "natural_sound_effects": ""
     }
 ]

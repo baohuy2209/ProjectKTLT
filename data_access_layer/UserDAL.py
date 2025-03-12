@@ -60,6 +60,20 @@ class UserDAL:
             list_user.append(element_user)
         self.list_user = list_user
         return list_user
+    def get_all_customer(self):
+        list_user = self.get_all_users()
+        list_customer = []
+        for user in list_user:
+            if user.role == "Customer":
+                list_customer.append(user)
+        return list_customer
+    def get_all_emp(self):
+        list_user = self.get_all_users()
+        list_emp = []
+        for user in list_user:
+            if user.role == "Employee":
+                list_emp.append(user)
+        return list_emp
     def get_all_psy(self):
         filepath = self.get_filepath("../data/user.json")
         self.list_user = self.json_factory.read_file(filepath, "r")

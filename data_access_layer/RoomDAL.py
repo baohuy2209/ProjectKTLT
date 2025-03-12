@@ -4,7 +4,6 @@ from model.Room.RoomCatharsis import RoomCatharsis
 from model.Room.RoomGenii import RoomGenii
 from model.Room.RoomMutiny import RoomMutiny
 from model.Room.RoomOasis import RoomOasis
-from tests.test_read_file.folder1.current_path import file_path
 
 
 class RoomDAL:
@@ -42,6 +41,9 @@ class RoomDAL:
             list_room.append(temp_room)
         self.list_room = list_room
         return self.list_room
+    def store_new_room(self, new_room):
+        filepath = self.get_filepath("../data/Room.json")
+        self.json_factory.write_file(filepath, "w", new_room.__dict__)
     def get_all_catharsis_room(self):
         filepath = self.get_filepath("../data/Room.json")
         list_room = self.json_factory.read_file(filepath, "r")

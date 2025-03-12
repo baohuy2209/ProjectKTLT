@@ -34,8 +34,6 @@ class LoginWindowEmployeeExt(Ui_MainWindow):
                 is_found = True
                 login_emp = user
                 break
-        content = ""
-        window_title = ""
         if not is_found or login_emp.role != "Employee":
             content = "This account doesn't exist !!!"
             window_title = "Error !!!"
