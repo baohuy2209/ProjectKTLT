@@ -1,7 +1,5 @@
 import os
 
-from Demos.win32ts_logoff_disconnected import username
-from huggingface_hub import list_user_followers
 
 from IO.JSONFileFactory import JSONFileFactory
 from model.User.Customer.CustomerStandard import CustomerStandard
@@ -10,7 +8,6 @@ from model.User.Customer.CustomerVIP import CustomerVIP
 from model.User.Employee.CustomerServiceStaff import CustomerServiceStaff
 from model.User.Employee.PsyConsultant import PsyConsultant
 from model.User.Employee.RoomManager import RoomManager
-from model.User.User import User
 
 
 class UserDAL:

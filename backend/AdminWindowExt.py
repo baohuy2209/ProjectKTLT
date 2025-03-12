@@ -1,5 +1,4 @@
 from PyQt6.QtCore import QDate
-from scripts.regsetup import description
 
 from data_access_layer.InvoiceDAL import InvoiceDAL
 from data_access_layer.PromotionDAL import PromotionDAL
@@ -13,7 +12,6 @@ from model.Room.RoomOasis import RoomOasis
 from model.User.Employee.CustomerServiceStaff import CustomerServiceStaff
 from model.User.Employee.PsyConsultant import PsyConsultant
 from model.User.Employee.RoomManager import RoomManager
-from tests.testRoomDAL import list_catharsis_room
 from ui.AdminWindow import Ui_MainWindow
 from PyQt6.QtWidgets import QMessageBox, QTableWidget, QTableWidgetItem
 

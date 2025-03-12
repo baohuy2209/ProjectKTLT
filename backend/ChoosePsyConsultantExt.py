@@ -1,6 +1,5 @@
 from PyQt6.QtCore import pyqtSignal
 from PyQt6.QtWidgets import QTableWidgetItem, QMessageBox
-from aiohttp.web_routedef import static
 
 from data_access_layer.UserDAL import UserDAL
 from model.User.Employee.PsyConsultant import PsyConsultant
