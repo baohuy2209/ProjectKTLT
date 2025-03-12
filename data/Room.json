@@ -64,7 +64,7 @@
         "name": "Catharsis 7",
         "description": "Quiet environment with nature sounds and relaxing images helps to soothe the mood and reduce stress.",
         "picture": "",
-        "status": "available",
+        "status": "full",
         "unit_price": 33000,
         "room_type": "Catharsis",
         "natural_sound_effects": ""
@@ -384,7 +384,7 @@
         "name": "Mutiny 9",
         "description": "An environment where players can experience thrilling games to relieve their frustrations.",
         "picture": "",
-        "status": "full",
+        "status": "available",
         "unit_price": 32000,
         "room_type": "Mutiny",
         "game_equipment": "VR Headset, Joystick"
@@ -418,5 +418,25 @@
         "unit_price": 33000,
         "room_type": "Catharsis",
         "natural_sound_effects": ""
+    },
+    {
+        "room_id": "oasis11",
+        "name": "Oasis 11",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
+    },
+    {
+        "room_id": "oasis12",
+        "name": "Oasis 12",
+        "description": "Private, quiet environment, suitable for introverts and gentle.",
+        "picture": "",
+        "status": "available",
+        "unit_price": 29000,
+        "room_type": "Oasis",
+        "journal_customization": true
     }
 ]

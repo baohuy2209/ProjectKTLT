@@ -62,5 +62,26 @@
         "quantity": 2,
         "unit_price": 34000,
         "total_price": 1632000.0
+    },
+    {
+        "booking_details_id": 7,
+        "booking_id": 7,
+        "room_id": [
+            "catharsis7"
+        ],
+        "quantity": 1,
+        "unit_price": 33000,
+        "total_price": 1584000.0
+    },
+    {
+        "booking_details_id": 8,
+        "booking_id": 8,
+        "room_id": [
+            "mutiny8",
+            "mutiny7"
+        ],
+        "quantity": 2,
+        "unit_price": 32000,
+        "total_price": 3072000.0
     }
 ]

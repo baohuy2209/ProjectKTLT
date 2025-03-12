@@ -1,7 +1,7 @@
 [
     {
         "feedback_id": 1,
-        "content": "Dá»‹ch vá»¥ phÃ²ng khÃ¡ tá»‘t",
+        "content": "DÃ¡Â»â€¹ch vÃ¡Â»Â¥ phÃƒÂ²ng khÃƒÂ¡ tÃ¡Â»â€˜t",
         "rating": 5.0,
         "date": "09/03/2025",
         "userid": "user4",
@@ -14,5 +14,13 @@
         "date": "09/03/2025",
         "userid": "user4",
         "room_id": "genii2"
+    },
+    {
+        "feedback_id": 3,
+        "content": "Dich vu rat tot",
+        "rating": 4.7,
+        "date": "12/03/2025",
+        "userid": "user9",
+        "room_id": "catharsis1"
     }
 ]

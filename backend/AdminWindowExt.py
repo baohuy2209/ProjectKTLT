@@ -156,7 +156,7 @@ class AdminWindowExt(Ui_MainWindow):
             column_date = QTableWidgetItem(list_invoice[i].invoice_date)
             column_tax_amount = QTableWidgetItem(str(list_invoice[i].tax_amount))
             column_discount_amount = QTableWidgetItem(str(list_invoice[i].discount_amount))
-            column_total_payable = QTableWidgetItem(str(list_invoice[i].discount_amount))
+            column_total_payable = QTableWidgetItem(str(list_invoice[i].total_payable))
             self.tableWidget_invoicemanagement.setItem(i, 0, column_id)
             self.tableWidget_invoicemanagement.setItem(i, 1, column_date)
             self.tableWidget_invoicemanagement.setItem(i, 2, column_tax_amount)

@@ -12,7 +12,7 @@ from PyQt6 import QtCore, QtGui, QtWidgets
 class Ui_MainWindow(object):
     def setupUi(self, MainWindow):
         MainWindow.setObjectName("MainWindow")
-        MainWindow.resize(1670, 786)
+        MainWindow.resize(1670, 797)
         sizePolicy = QtWidgets.QSizePolicy(QtWidgets.QSizePolicy.Policy.Expanding, QtWidgets.QSizePolicy.Policy.Fixed)
         sizePolicy.setHorizontalStretch(0)
         sizePolicy.setVerticalStretch(0)
@@ -26,6 +26,14 @@ class Ui_MainWindow(object):
 "color: #000;\n"
 "border: none\n"
 "}\n"
+"\n"
+"#listWidget_sidebar{\n"
+"color: #fefeff;\n"
+"font-size: 14pt;\n"
+"font-family: \'Roboto\', sans-serif;\n"
+"    font-weight: 700;\n"
+"}\n"
+"\n"
 "#lineEdit_writesearch{\n"
 "background: transparent;\n"
 "min-width: 200px;\n"
@@ -43,7 +51,7 @@ class Ui_MainWindow(object):
 "background-color: transparernt;\n"
 "}\n"
 "#frame_lelfmenu{\n"
-"background-image: url(\"C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/BACKGROUND.jpg\");\n"
+"background-image: url(\"../assets/image/BACKGROUND.jpg\");\n"
 "}\n"
 "#widget_headerframe, #widget_mainframe, #frame_profile{\n"
 "background-color: #fefeff;\n"
@@ -85,7 +93,7 @@ class Ui_MainWindow(object):
 "color: #fefeff\n"
 "}\n"
 "#frame_below1{\n"
-"background-image: url(\"C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/background2.jpg\");\n"
+"background-image: url(\"../assets/image/background2.jpg\");\n"
 "border-radius:10px\n"
 "}\n"
 "#pushButton_signup{\n"
@@ -104,16 +112,16 @@ class Ui_MainWindow(object):
 "\n"
 "\n"
 "#frame_mutiny{\n"
-"    border-image: url(\"C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Mutiny.jpg\") 0 0 0 0 stretch stretch;\n"
+"    border-image: url(\"../assets/image/Mutiny.jpg\") 0 0 0 0 stretch stretch;\n"
 "}\n"
 "#frame_catharsis {\n"
-"    border-image: url(\"C:/Users/ADMIN/PycharmProjects/ProjectKTLT/assets/image/Catharsis.jpg\") 0 0 0 0 stretch stretch;\n"
+"    border-image: url(\"../assets/image/Catharsis.jpg\") 0 0 0 0 stretch stretch;\n"
 "}\n"
 "#frame_genii {\n"
-"    border-image: url(:/Image/Genii.jpg) 0 0 0 0 stretch stretch;\n"
+"    border-image: url(\"../assets/image/Genii.jpg\") 0 0 0 0 stretch stretch;\n"
 "}\n"
 "#frame_oasis {\n"
-"    border-image: url(:/Image/Oasis.jpg) 0 0 0 0 stretch stretch;\n"
+"    border-image: url(\"../assets/image/Oasis.jpg\") 0 0 0 0 stretch stretch;\n"
 "}\n"
 "#lineEdit_roomname, #lineEdit_roomtype, #lineEdit_capacity, #lineEdit_priceperhour, #lineEdit_roomstatus{\n"
 "background: transparent;\n"
@@ -281,7 +289,7 @@ class Ui_MainWindow(object):
         self.verticalLayout_5.setObjectName("verticalLayout_5")
         self.label_panacea = QtWidgets.QLabel(parent=self.frame_header)
         self.label_panacea.setText("")
-        self.label_panacea.setPixmap(QtGui.QPixmap(":/Image/TITLE (3).png"))
+        self.label_panacea.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/image/TITLE (3).png"))
         self.label_panacea.setObjectName("label_panacea")
         self.verticalLayout_5.addWidget(self.label_panacea, 0, QtCore.Qt.AlignmentFlag.AlignHCenter)
         self.verticalLayout_4.addWidget(self.frame_header)
@@ -311,6 +319,12 @@ class Ui_MainWindow(object):
         sizePolicy.setHeightForWidth(self.listWidget_sidebar.sizePolicy().hasHeightForWidth())
         self.listWidget_sidebar.setSizePolicy(sizePolicy)
         self.listWidget_sidebar.setMinimumSize(QtCore.QSize(300, 0))
+        font = QtGui.QFont()
+        font.setFamily("Roboto,sans-serif")
+        font.setPointSize(14)
+        font.setBold(True)
+        font.setWeight(87)
+        self.listWidget_sidebar.setFont(font)
         self.listWidget_sidebar.viewport().setProperty("cursor", QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
         self.listWidget_sidebar.setIconSize(QtCore.QSize(25, 25))
         self.listWidget_sidebar.setObjectName("listWidget_sidebar")
@@ -320,17 +334,13 @@ class Ui_MainWindow(object):
         item.setBackground(brush)
         self.listWidget_sidebar.addItem(item)
         item = QtWidgets.QListWidgetItem()
-        self.listWidget_sidebar.addItem(item)
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget_sidebar.addItem(item)
-        item = QtWidgets.QListWidgetItem()
         font = QtGui.QFont()
         font.setPointSize(14)
         font.setBold(True)
         font.setWeight(75)
         item.setFont(font)
         icon = QtGui.QIcon()
-        icon.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/award.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/whiteicons/award.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         item.setIcon(icon)
         brush = QtGui.QBrush(QtGui.QColor(239, 243, 255))
         brush.setStyle(QtCore.Qt.BrushStyle.NoBrush)
@@ -347,7 +357,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         item.setFont(font)
         icon1 = QtGui.QIcon()
-        icon1.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/cast.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon1.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/whiteicons/cast.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         item.setIcon(icon1)
         brush = QtGui.QBrush(QtGui.QColor(239, 243, 255))
         brush.setStyle(QtCore.Qt.BrushStyle.NoBrush)
@@ -364,7 +374,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         item.setFont(font)
         icon2 = QtGui.QIcon()
-        icon2.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/paperclip.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon2.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/whiteicons/paperclip.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         item.setIcon(icon2)
         brush = QtGui.QBrush(QtGui.QColor(239, 243, 255))
         brush.setStyle(QtCore.Qt.BrushStyle.NoBrush)
@@ -381,7 +391,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         item.setFont(font)
         icon3 = QtGui.QIcon()
-        icon3.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/server.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon3.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/whiteicons/server.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         item.setIcon(icon3)
         brush = QtGui.QBrush(QtGui.QColor(239, 243, 255))
         brush.setStyle(QtCore.Qt.BrushStyle.NoBrush)
@@ -398,19 +408,11 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         item.setFont(font)
         icon4 = QtGui.QIcon()
-        icon4.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/dollar-sign.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon4.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/whiteicons/dollar-sign.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         item.setIcon(icon4)
         brush = QtGui.QBrush(QtGui.QColor(239, 243, 255))
         brush.setStyle(QtCore.Qt.BrushStyle.NoBrush)
         item.setForeground(brush)
-        self.listWidget_sidebar.addItem(item)
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget_sidebar.addItem(item)
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget_sidebar.addItem(item)
-        item = QtWidgets.QListWidgetItem()
-        self.listWidget_sidebar.addItem(item)
-        item = QtWidgets.QListWidgetItem()
         self.listWidget_sidebar.addItem(item)
         item = QtWidgets.QListWidgetItem()
         self.listWidget_sidebar.addItem(item)
@@ -457,7 +459,7 @@ class Ui_MainWindow(object):
         self.pushButton_menu.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
         self.pushButton_menu.setText("")
         icon5 = QtGui.QIcon()
-        icon5.addPixmap(QtGui.QPixmap(":/BlueIcons/Icons/buleicons/menu.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon5.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/buleicons/menu.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_menu.setIcon(icon5)
         self.pushButton_menu.setIconSize(QtCore.QSize(30, 30))
         self.pushButton_menu.setObjectName("pushButton_menu")
@@ -500,7 +502,7 @@ class Ui_MainWindow(object):
         self.label_iconsearch.setMinimumSize(QtCore.QSize(30, 30))
         self.label_iconsearch.setMaximumSize(QtCore.QSize(30, 30))
         self.label_iconsearch.setText("")
-        self.label_iconsearch.setPixmap(QtGui.QPixmap(":/BlueIcons/Icons/buleicons/search.svg"))
+        self.label_iconsearch.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/buleicons/search.svg"))
         self.label_iconsearch.setScaledContents(True)
         self.label_iconsearch.setObjectName("label_iconsearch")
         self.horizontalLayout_5.addWidget(self.label_iconsearch)
@@ -525,7 +527,7 @@ class Ui_MainWindow(object):
         self.pushButton_user.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
         self.pushButton_user.setText("")
         icon6 = QtGui.QIcon()
-        icon6.addPixmap(QtGui.QPixmap(":/BlueIcons/Icons/buleicons/user.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon6.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/buleicons/user.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_user.setIcon(icon6)
         self.pushButton_user.setIconSize(QtCore.QSize(30, 30))
         self.pushButton_user.setObjectName("pushButton_user")
@@ -694,7 +696,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         item.setFont(font)
         icon7 = QtGui.QIcon()
-        icon7.addPixmap(QtGui.QPixmap(":/BlueIcons/Icons/buleicons/list.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon7.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/buleicons/list.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         item.setIcon(icon7)
         self.listWidget_listofemployees.addItem(item)
         self.verticalLayout_13.addWidget(self.listWidget_listofemployees)
@@ -718,7 +720,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         item.setFont(font)
         icon8 = QtGui.QIcon()
-        icon8.addPixmap(QtGui.QPixmap(":/BlueIcons/Icons/buleicons/plus-circle.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon8.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/buleicons/plus-circle.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         item.setIcon(icon8)
         self.listWidget_accountregistration.addItem(item)
         self.verticalLayout_14.addWidget(self.listWidget_accountregistration)
@@ -1632,7 +1634,7 @@ class Ui_MainWindow(object):
         self.pushButton_createroom.setFont(font)
         self.pushButton_createroom.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
         icon11 = QtGui.QIcon()
-        icon11.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/folder-plus.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        icon11.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/whiteicons/folder-plus.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
         self.pushButton_createroom.setIcon(icon11)
         self.pushButton_createroom.setObjectName("pushButton_createroom")
         self.horizontalLayout_28.addWidget(self.pushButton_createroom)
@@ -1643,7 +1645,9 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_cancel_createnewroom.setFont(font)
         self.pushButton_cancel_createnewroom.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
-        self.pushButton_cancel_createnewroom.setIcon(icon10)
+        icon12 = QtGui.QIcon()
+        icon12.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/whiteicons/delete.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButton_cancel_createnewroom.setIcon(icon12)
         self.pushButton_cancel_createnewroom.setObjectName("pushButton_cancel_createnewroom")
         self.horizontalLayout_28.addWidget(self.pushButton_cancel_createnewroom)
         self.verticalLayout_57.addWidget(self.frame_belowrightbelow)
@@ -2002,9 +2006,9 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_create.setFont(font)
         self.pushButton_create.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
-        icon12 = QtGui.QIcon()
-        icon12.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/arrow-down-circle.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_create.setIcon(icon12)
+        icon13 = QtGui.QIcon()
+        icon13.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/arrow-down-circle.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButton_create.setIcon(icon13)
         self.pushButton_create.setIconSize(QtCore.QSize(30, 30))
         self.pushButton_create.setObjectName("pushButton_create")
         self.horizontalLayout_46.addWidget(self.pushButton_create)
@@ -2021,9 +2025,9 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_reset.setFont(font)
         self.pushButton_reset.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
-        icon13 = QtGui.QIcon()
-        icon13.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/corner-up-left.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_reset.setIcon(icon13)
+        icon14 = QtGui.QIcon()
+        icon14.addPixmap(QtGui.QPixmap(":/WhiteIcons/Icons/whiteicons/corner-up-left.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButton_reset.setIcon(icon14)
         self.pushButton_reset.setIconSize(QtCore.QSize(30, 30))
         self.pushButton_reset.setObjectName("pushButton_reset")
         self.horizontalLayout_46.addWidget(self.pushButton_reset)
@@ -2134,9 +2138,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         item.setFont(font)
-        icon14 = QtGui.QIcon()
-        icon14.addPixmap(QtGui.QPixmap(":/BlueIcons/Icons/buleicons/book-open.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        item.setIcon(icon14)
+        icon15 = QtGui.QIcon()
+        icon15.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/buleicons/book-open.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        item.setIcon(icon15)
         self.listWidget_invoicelist.addItem(item)
         self.horizontalLayout_54.addWidget(self.listWidget_invoicelist)
         self.horizontalLayout_52.addWidget(self.frame_65, 0, QtCore.Qt.AlignmentFlag.AlignHCenter|QtCore.Qt.AlignmentFlag.AlignTop)
@@ -2156,9 +2160,9 @@ class Ui_MainWindow(object):
         font.setBold(True)
         font.setWeight(75)
         item.setFont(font)
-        icon15 = QtGui.QIcon()
-        icon15.addPixmap(QtGui.QPixmap(":/BlueIcons/Icons/buleicons/copy.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        item.setIcon(icon15)
+        icon16 = QtGui.QIcon()
+        icon16.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/buleicons/copy.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        item.setIcon(icon16)
         self.listWidget_createinvoice.addItem(item)
         self.horizontalLayout_55.addWidget(self.listWidget_createinvoice)
         self.horizontalLayout_52.addWidget(self.frame_66, 0, QtCore.Qt.AlignmentFlag.AlignHCenter|QtCore.Qt.AlignmentFlag.AlignTop)
@@ -2470,7 +2474,7 @@ class Ui_MainWindow(object):
         font.setWeight(75)
         self.pushButton_cancel_invoicemanagement.setFont(font)
         self.pushButton_cancel_invoicemanagement.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
-        self.pushButton_cancel_invoicemanagement.setIcon(icon10)
+        self.pushButton_cancel_invoicemanagement.setIcon(icon12)
         self.pushButton_cancel_invoicemanagement.setObjectName("pushButton_cancel_invoicemanagement")
         self.horizontalLayout_57.addWidget(self.pushButton_cancel_invoicemanagement)
         self.frame_78 = QtWidgets.QFrame(parent=self.frame_belowrightbelow_2)
@@ -2531,7 +2535,7 @@ class Ui_MainWindow(object):
         self.label_5.setMinimumSize(QtCore.QSize(50, 50))
         self.label_5.setMaximumSize(QtCore.QSize(50, 50))
         self.label_5.setText("")
-        self.label_5.setPixmap(QtGui.QPixmap(":/Image/pngtree-user-cartoon-avatar-pattern-flat-avatar-png-image_4492883.jpg"))
+        self.label_5.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/image/pngtree-user-cartoon-avatar-pattern-flat-avatar-png-image_4492883.jpg"))
         self.label_5.setScaledContents(True)
         self.label_5.setObjectName("label_5")
         self.verticalLayout_10.addWidget(self.label_5, 0, QtCore.Qt.AlignmentFlag.AlignHCenter)
@@ -2540,9 +2544,9 @@ class Ui_MainWindow(object):
         font.setPointSize(10)
         self.pushButton_myprofile.setFont(font)
         self.pushButton_myprofile.setCursor(QtGui.QCursor(QtCore.Qt.CursorShape.PointingHandCursor))
-        icon16 = QtGui.QIcon()
-        icon16.addPixmap(QtGui.QPixmap(":/BlueIcons/Icons/buleicons/log-out.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
-        self.pushButton_myprofile.setIcon(icon16)
+        icon17 = QtGui.QIcon()
+        icon17.addPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/buleicons/log-out.svg"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)
+        self.pushButton_myprofile.setIcon(icon17)
         self.pushButton_myprofile.setObjectName("pushButton_myprofile")
         self.verticalLayout_10.addWidget(self.pushButton_myprofile, 0, QtCore.Qt.AlignmentFlag.AlignHCenter)
         self.pushButton_logout = QtWidgets.QPushButton(parent=self.frame_profile)
@@ -2558,10 +2562,10 @@ class Ui_MainWindow(object):
         MainWindow.setCentralWidget(self.centralwidget)
 
         self.retranslateUi(MainWindow)
-        self.stackedWidget_main.setCurrentIndex(2)
-        self.stackedWidget_quanlinhanvien.setCurrentIndex(0)
+        self.stackedWidget_main.setCurrentIndex(1)
+        self.stackedWidget_quanlinhanvien.setCurrentIndex(1)
         self.stackedWidget.setCurrentIndex(0)
-        self.stackedWidget_2.setCurrentIndex(0)
+        self.stackedWidget_2.setCurrentIndex(1)
         self.stackedWidget_3.setCurrentIndex(1)
         QtCore.QMetaObject.connectSlotsByName(MainWindow)
 
@@ -2570,15 +2574,15 @@ class Ui_MainWindow(object):
         MainWindow.setWindowTitle(_translate("MainWindow", "MainWindow"))
         __sortingEnabled = self.listWidget_sidebar.isSortingEnabled()
         self.listWidget_sidebar.setSortingEnabled(False)
-        item = self.listWidget_sidebar.item(3)
+        item = self.listWidget_sidebar.item(1)
         item.setText(_translate("MainWindow", "Customer Management"))
-        item = self.listWidget_sidebar.item(6)
+        item = self.listWidget_sidebar.item(4)
         item.setText(_translate("MainWindow", "Employee Management"))
-        item = self.listWidget_sidebar.item(9)
+        item = self.listWidget_sidebar.item(7)
         item.setText(_translate("MainWindow", "Invoice Management"))
-        item = self.listWidget_sidebar.item(12)
+        item = self.listWidget_sidebar.item(10)
         item.setText(_translate("MainWindow", "Create New Room"))
-        item = self.listWidget_sidebar.item(15)
+        item = self.listWidget_sidebar.item(13)
         item.setText(_translate("MainWindow", "Create Promotion"))
         self.listWidget_sidebar.setSortingEnabled(__sortingEnabled)
         self.label_dashboard.setText(_translate("MainWindow", "DashBoard"))

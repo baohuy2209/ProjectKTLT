@@ -47,7 +47,10 @@
             "genii2",
             "genii5",
             "genii9",
-            "genii8"
+            "genii8",
+            "catharsis7",
+            "mutiny8",
+            "mutiny7"
         ]
     },
     {
@@ -68,7 +71,9 @@
             "user4",
             "user4",
             "user5",
-            "user5"
+            "user5",
+            "user4",
+            "user9"
         ]
     },
     {
@@ -80,7 +85,7 @@
         "phone": "0348403449",
         "address": "Dak Lak",
         "role": "Customer",
-        "loyalty_points": 3,
+        "loyalty_points": 4,
         "customer_type": "Trial",
         "trial_duration": 2,
         "service_limitations": []
@@ -113,7 +118,8 @@
         "work_shift": "Monday, Tuesday, Wednesday",
         "hired_date": "02/01/2025",
         "room_id": [
-            "mutiny9"
+            "mutiny9",
+            "catharsis7"
         ]
     },
     {
@@ -129,7 +135,10 @@
         "salary": 40000,
         "work_shift": "Part-time",
         "hired_date": "12/04/2023",
-        "room_id": []
+        "room_id": [
+            "mutiny8",
+            "mutiny7"
+        ]
     },
     {
         "userid": "user8",
@@ -144,5 +153,21 @@
         "customer_type": "Trial",
         "trial_duration": 2,
         "service_limitations": []
+    },
+    {
+        "userid": "user9",
+        "name": "Huynh Van Vu",
+        "username": "vanvu123",
+        "password": "123456",
+        "email": "huynhvanvu@gmail.com",
+        "phone": "0456789344",
+        "address": "Tp. Ho Chi Minh",
+        "role": "Customer",
+        "loyalty_points": 3,
+        "customer_type": "Vip",
+        "free_services": [
+            "3 times free message service",
+            "1 time free psychological counseling service"
+        ]
     }
 ]
