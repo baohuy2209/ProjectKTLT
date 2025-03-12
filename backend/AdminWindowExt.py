@@ -239,9 +239,6 @@ class AdminWindowExt(Ui_MainWindow):
         self.lineEdit_priceperhour.setText(price)
         self.lineEdit_roomstatus.setText(status)
 
-    def create_room(self):
-
-
     def clear_room_fields(self):
         self.lineEdit_roomname.clear()
         self.lineEdit_roomtype.clear()
