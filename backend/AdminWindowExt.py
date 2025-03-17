@@ -152,8 +152,8 @@ class AdminWindowExt(Ui_MainWindow):
         self.tableWidget_invoicemanagement.setRowCount(0)
         for i in range(len(list_invoice)):
             self.tableWidget_invoicemanagement.insertRow(i)
-            column_id = QTableWidgetItem(list_invoice[i].invoice_id)
-            column_date = QTableWidgetItem(list_invoice[i].invoice_date)
+            column_id = QTableWidgetItem(str(list_invoice[i].invoice_id))
+            column_date = QTableWidgetItem(str(list_invoice[i].invoice_date))
             column_tax_amount = QTableWidgetItem(str(list_invoice[i].tax_amount))
             column_discount_amount = QTableWidgetItem(str(list_invoice[i].discount_amount))
             column_total_payable = QTableWidgetItem(str(list_invoice[i].total_payable))

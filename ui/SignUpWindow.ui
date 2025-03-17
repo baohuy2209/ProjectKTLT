@@ -12,7 +12,6 @@
   </property>
   <property name="font">
    <font>
-    <weight>75</weight>
     <bold>true</bold>
    </font>
   </property>
@@ -31,7 +30,6 @@
     </property>
     <property name="font">
      <font>
-      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -260,6 +258,9 @@
 }
 </string>
     </property>
+    <property name="echoMode">
+     <enum>QLineEdit::EchoMode::Password</enum>
+    </property>
    </widget>
    <widget class="QPushButton" name="pushButtonGetStarted">
     <property name="geometry">
@@ -305,6 +306,7 @@
     <property name="font">
      <font>
       <pointsize>12</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="text">
@@ -371,7 +373,6 @@
      <font>
       <family>Nirmala UI</family>
       <pointsize>11</pointsize>
-      <weight>50</weight>
       <bold>false</bold>
      </font>
     </property>
@@ -432,7 +433,6 @@
      <font>
       <family>Nirmala</family>
       <pointsize>-1</pointsize>
-      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -461,7 +461,6 @@
      <font>
       <family>Nirmala</family>
       <pointsize>-1</pointsize>
-      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -490,7 +489,6 @@
      <font>
       <family>Nirmala</family>
       <pointsize>-1</pointsize>
-      <weight>75</weight>
       <bold>true</bold>
      </font>
     </property>
@@ -518,6 +516,7 @@
     <property name="font">
      <font>
       <pointsize>20</pointsize>
+      <bold>true</bold>
      </font>
     </property>
     <property name="styleSheet">
@@ -548,7 +547,7 @@
      <x>0</x>
      <y>0</y>
      <width>1216</width>
-     <height>21</height>
+     <height>33</height>
     </rect>
    </property>
   </widget>

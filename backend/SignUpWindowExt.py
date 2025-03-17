@@ -1,3 +1,4 @@
+import hashlib
 import traceback
 import webbrowser
 
@@ -49,6 +50,9 @@ class SignUpWindowExt(Ui_MainWindow):
         else:
             type_customer = None
         return type_customer
+
+    def hash_password(self, password):
+        return hashlib.sha256(password.encode()).hexdigest()
     def sign_up(self):
         try:
             # The number of current user

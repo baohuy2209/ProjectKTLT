@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>1670</width>
-    <height>797</height>
+    <height>794</height>
    </rect>
   </property>
   <property name="sizePolicy">
@@ -30,18 +30,30 @@
 color: #000;
 border: none
 }
-
+#listWidget_sidebar, #label_11, #label_12, #label_13, #label_14, #label_15, #label_16, #label_17, #label_18, #label_19, #label_20{
+color: #fefeff;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
+}
+#listWidget_listofemployees, #listWidget_accountregistration, #tableWidget_listofemployee, #label_roomname, #label_roomtype, #label_capacity, #label_priceperhour, #label_roomstatus, #radioButton_approvedbymanager, #label, #label_2, #label_6, #label_7, #label_8, #label_9, #listWidget_invoicelist, #listWidget_createinvoice, #label_invoiceid, #label_invoicedate, #label_taxamount, #label_discountamount, #label_totalpayable, #radioButton_approvedbymanager_2, #tableWidget_invoicemanagement, #tableWidget_customermanagement, #label_3, #label_4{
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
+}
 #listWidget_sidebar{
 color: #fefeff;
 font-size: 14pt;
 font-family: 'Roboto', sans-serif;
-    font-weight: 700;
+font-weight: 700;
 }
 
 #lineEdit_writesearch{
 background: transparent;
 min-width: 200px;
-    padding-left: 50px;
+padding-left: 50px;
 padding-right: 50px;
 }
 #frame_search{
@@ -55,7 +67,7 @@ label_panacea{
 background-color: transparernt;
 }
 #frame_lelfmenu{
-background-image: url(&quot;../assets/image/BACKGROUND.jpg&quot;);
+background-image: url(&quot;./assets/image/BACKGROUND.jpg&quot;);
 }
 #widget_headerframe, #widget_mainframe, #frame_profile{
 background-color: #fefeff;
@@ -97,35 +109,43 @@ padding: 15px
 color: #fefeff
 }
 #frame_below1{
-background-image: url(&quot;../assets/image/background2.jpg&quot;);
+background-image: url(&quot;./assets/image/background2.jpg&quot;);
 border-radius:10px
 }
 #pushButton_signup{
 border-radius:20px;
 border: 2px solid #4DA1A9;
 background-color: #4DA1A9;
-padding: 10px
+padding: 10px;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; 
+font-style: normal;
+font-weight: bold;
 }
 #pushButton_cancel_employeemanagement{
 color: #fefeff;
 border-radius:20px;
 border: 2px solid #D84040;
 background-color: #D84040;
-padding: 10px
+padding: 10px;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
 }
 
 
 #frame_mutiny{
-    border-image: url(&quot;../assets/image/Mutiny.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;./assets/image/Mutiny.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_catharsis {
-    border-image: url(&quot;../assets/image/Catharsis.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;./assets/image/Catharsis.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_genii {
-    border-image: url(&quot;../assets/image/Genii.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;./assets/image/Genii.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #frame_oasis {
-    border-image: url(&quot;../assets/image/Oasis.jpg&quot;) 0 0 0 0 stretch stretch;
+    border-image: url(&quot;./assets/image/Oasis.jpg&quot;) 0 0 0 0 stretch stretch;
 }
 #lineEdit_roomname, #lineEdit_roomtype, #lineEdit_capacity, #lineEdit_priceperhour, #lineEdit_roomstatus{
 background: transparent;
@@ -137,13 +157,23 @@ padding: 15px;
 border-radius:20px;
 border: 2px solid #4DA1A9;
 background-color: #4DA1A9;
-padding: 10px
+padding: 10px;
+color: #fefeff;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
 }
 #pushButton_cancel_createnewroom{
 border-radius:20px;
 border: 2px solid #D84040;
 background-color: #D84040;
-padding: 10px
+padding: 10px;
+color: #fefeff;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
 }
 
 
@@ -162,19 +192,34 @@ padding: 10px
 border-radius:20px;
 border: 2px solid #4DA1A9;
 background-color: #4DA1A9;
-padding: 10px
+padding: 10px;
+color: #fefeff;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
 }
 #pushButton_reset{
 border-radius:20px;
 border: 2px solid #497D74;
 background-color: #497D74;
-padding: 10px
+padding: 10px;
+color: #fefeff;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
 }
 #pushButton_cancel_createnewpromotion{
 border-radius:20px;
 border: 2px solid #D84040;
 background-color: #D84040;
-padding: 10px
+padding: 10px;
+color: #fefeff;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
 }
 #label_10, #label_22{
 color:#eeeeee
@@ -209,7 +254,12 @@ padding: 15px;
 border-radius:20px;
 border: 2px solid #4DA1A9;
 background-color: #4DA1A9;
-padding: 10px
+padding: 10px;
+color: #fefeff;
+font-family: &quot;Times New Roman&quot;;
+font-size: 20px; /* Sử dụng font-size thay vì Pointsize */
+font-style: normal;
+font-weight: bold;
 }
 #pushButton_cancel_invoicemanagement{
 border-radius:20px;
@@ -242,22 +292,25 @@ border-radius:10px;
 border: 2px solid #4DA1A9
 }
 #frame_right{
-background: #EEEEEE;
-border-radius: 10px;
-radius:10px;
-padding: 4px;
+background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+padding: 10px;
+font-size: 10pt;
 }
 #frame_right_2{
-background: #EEEEEE;
-border-radius: 20px;
-radius:10px;
-padding: 5px;
+background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+padding: 10px;
+font-size: 10pt;
 }
 #frame_24, #frame_51, #frame_55{
-background: #EEEEEE;
-border-radius: 20px;
-radius:10px;
-padding: 5px;
+background-color: rgba(255, 255, 255, 100);
+border: 0.5px solid white;
+border-radius: 7px;
+padding: 10px;
+font-size: 10pt;
 }
 </string>
    </property>
@@ -426,6 +479,7 @@ padding: 5px;
                     <family>Roboto,sans-serif</family>
                     <pointsize>14</pointsize>
                     <weight>87</weight>
+                    <italic>false</italic>
                     <bold>true</bold>
                    </font>
                   </property>
@@ -741,9 +795,10 @@ padding: 5px;
               <widget class="QLabel" name="label_dashboard">
                <property name="font">
                 <font>
-                 <pointsize>14</pointsize>
-                 <weight>75</weight>
-                 <bold>true</bold>
+                 <family>Poppins,sans-serif</family>
+                 <weight>50</weight>
+                 <italic>false</italic>
+                 <bold>false</bold>
                 </font>
                </property>
                <property name="text">
@@ -849,7 +904,11 @@ padding: 5px;
                   </property>
                   <property name="font">
                    <font>
-                    <pointsize>12</pointsize>
+                    <family>Times New Roman</family>
+                    <pointsize>14</pointsize>
+                    <weight>50</weight>
+                    <italic>false</italic>
+                    <bold>false</bold>
                    </font>
                   </property>
                   <property name="maxLength">
@@ -976,7 +1035,7 @@ padding: 5px;
                 <item>
                  <widget class="QStackedWidget" name="stackedWidget_main">
                   <property name="currentIndex">
-                   <number>1</number>
+                   <number>4</number>
                   </property>
                   <widget class="QWidget" name="page_customermanagement">
                    <layout class="QHBoxLayout" name="horizontalLayout_8">
@@ -1429,7 +1488,11 @@ padding: 5px;
                                      <widget class="QTableWidget" name="tableWidget_listofemployee">
                                       <property name="font">
                                        <font>
-                                        <pointsize>10</pointsize>
+                                        <family>Times New Roman</family>
+                                        <pointsize>-1</pointsize>
+                                        <weight>75</weight>
+                                        <italic>false</italic>
+                                        <bold>true</bold>
                                        </font>
                                       </property>
                                       <column>
@@ -1688,8 +1751,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_11">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -1729,8 +1794,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_12">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -1770,8 +1837,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_13">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -1811,8 +1880,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_14">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -1852,8 +1923,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_15">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -1911,7 +1984,11 @@ padding: 5px;
                                                        <widget class="QLineEdit" name="lineEdit_name">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <property name="placeholderText">
@@ -1950,7 +2027,11 @@ padding: 5px;
                                                        <widget class="QLineEdit" name="lineEdit_phone">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <property name="placeholderText">
@@ -1989,7 +2070,11 @@ padding: 5px;
                                                        <widget class="QLineEdit" name="lineEdit_username">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <property name="placeholderText">
@@ -2028,8 +2113,15 @@ padding: 5px;
                                                        <widget class="QLineEdit" name="lineEdit_password">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
+                                                        </property>
+                                                        <property name="echoMode">
+                                                         <enum>QLineEdit::Password</enum>
                                                         </property>
                                                         <property name="placeholderText">
                                                          <string>ex: 18022005</string>
@@ -2067,7 +2159,11 @@ padding: 5px;
                                                        <widget class="QComboBox" name="comboBox_employeetype">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <item>
@@ -2154,8 +2250,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_16">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -2195,8 +2293,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_17">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -2236,8 +2336,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_18">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -2277,8 +2379,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_19">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -2318,8 +2422,10 @@ padding: 5px;
                                                        <widget class="QLabel" name="label_20">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>-1</pointsize>
                                                           <weight>75</weight>
+                                                          <italic>false</italic>
                                                           <bold>true</bold>
                                                          </font>
                                                         </property>
@@ -2371,7 +2477,11 @@ padding: 5px;
                                                        <widget class="QLineEdit" name="lineEdit_salary">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <property name="placeholderText">
@@ -2410,7 +2520,11 @@ padding: 5px;
                                                        <widget class="QLineEdit" name="lineEdit_email">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <property name="placeholderText">
@@ -2449,7 +2563,11 @@ padding: 5px;
                                                        <widget class="QLineEdit" name="lineEdit_address">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <property name="placeholderText">
@@ -2488,7 +2606,11 @@ padding: 5px;
                                                        <widget class="QLineEdit" name="lineEdit_hireddate">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <property name="placeholderText">
@@ -2527,7 +2649,11 @@ padding: 5px;
                                                        <widget class="QComboBox" name="comboBox_workshift">
                                                         <property name="font">
                                                          <font>
-                                                          <pointsize>14</pointsize>
+                                                          <family>Times New Roman</family>
+                                                          <pointsize>12</pointsize>
+                                                          <weight>50</weight>
+                                                          <italic>false</italic>
+                                                          <bold>false</bold>
                                                          </font>
                                                         </property>
                                                         <item>
@@ -2600,8 +2726,10 @@ padding: 5px;
                                            <widget class="QPushButton" name="pushButton_signup">
                                             <property name="font">
                                              <font>
-                                              <pointsize>10</pointsize>
+                                              <family>Times New Roman</family>
+                                              <pointsize>-1</pointsize>
                                               <weight>75</weight>
+                                              <italic>false</italic>
                                               <bold>true</bold>
                                              </font>
                                             </property>
@@ -2627,8 +2755,10 @@ padding: 5px;
                                            <widget class="QPushButton" name="pushButton_cancel_employeemanagement">
                                             <property name="font">
                                              <font>
-                                              <pointsize>10</pointsize>
+                                              <family>Times New Roman</family>
+                                              <pointsize>-1</pointsize>
                                               <weight>75</weight>
+                                              <italic>false</italic>
                                               <bold>true</bold>
                                              </font>
                                             </property>
@@ -2941,8 +3071,10 @@ padding: 5px;
                                     <widget class="QLabel" name="label_roomname">
                                      <property name="font">
                                       <font>
-                                       <pointsize>12</pointsize>
+                                       <family>Times New Roman</family>
+                                       <pointsize>-1</pointsize>
                                        <weight>75</weight>
+                                       <italic>false</italic>
                                        <bold>true</bold>
                                       </font>
                                      </property>
@@ -2982,8 +3114,10 @@ padding: 5px;
                                     <widget class="QLabel" name="label_roomtype">
                                      <property name="font">
                                       <font>
-                                       <pointsize>12</pointsize>
+                                       <family>Times New Roman</family>
+                                       <pointsize>-1</pointsize>
                                        <weight>75</weight>
+                                       <italic>false</italic>
                                        <bold>true</bold>
                                       </font>
                                      </property>
@@ -3023,8 +3157,10 @@ padding: 5px;
                                     <widget class="QLabel" name="label_capacity">
                                      <property name="font">
                                       <font>
-                                       <pointsize>12</pointsize>
+                                       <family>Times New Roman</family>
+                                       <pointsize>-1</pointsize>
                                        <weight>75</weight>
+                                       <italic>false</italic>
                                        <bold>true</bold>
                                       </font>
                                      </property>
@@ -3064,8 +3200,10 @@ padding: 5px;
                                     <widget class="QLabel" name="label_priceperhour">
                                      <property name="font">
                                       <font>
-                                       <pointsize>12</pointsize>
+                                       <family>Times New Roman</family>
+                                       <pointsize>-1</pointsize>
                                        <weight>75</weight>
+                                       <italic>false</italic>
                                        <bold>true</bold>
                                       </font>
                                      </property>
@@ -3105,8 +3243,10 @@ padding: 5px;
                                     <widget class="QLabel" name="label_roomstatus">
                                      <property name="font">
                                       <font>
-                                       <pointsize>12</pointsize>
+                                       <family>Times New Roman</family>
+                                       <pointsize>-1</pointsize>
                                        <weight>75</weight>
+                                       <italic>false</italic>
                                        <bold>true</bold>
                                       </font>
                                      </property>
@@ -3173,7 +3313,11 @@ padding: 5px;
                                     <widget class="QLineEdit" name="lineEdit_roomname">
                                      <property name="font">
                                       <font>
+                                       <family>Times New Roman</family>
                                        <pointsize>12</pointsize>
+                                       <weight>50</weight>
+                                       <italic>false</italic>
+                                       <bold>false</bold>
                                       </font>
                                      </property>
                                     </widget>
@@ -3209,7 +3353,11 @@ padding: 5px;
                                     <widget class="QLineEdit" name="lineEdit_roomtype">
                                      <property name="font">
                                       <font>
+                                       <family>Times New Roman</family>
                                        <pointsize>12</pointsize>
+                                       <weight>50</weight>
+                                       <italic>false</italic>
+                                       <bold>false</bold>
                                       </font>
                                      </property>
                                     </widget>
@@ -3245,7 +3393,11 @@ padding: 5px;
                                     <widget class="QLineEdit" name="lineEdit_capacity">
                                      <property name="font">
                                       <font>
+                                       <family>Times New Roman</family>
                                        <pointsize>12</pointsize>
+                                       <weight>50</weight>
+                                       <italic>false</italic>
+                                       <bold>false</bold>
                                       </font>
                                      </property>
                                     </widget>
@@ -3281,7 +3433,11 @@ padding: 5px;
                                     <widget class="QLineEdit" name="lineEdit_priceperhour">
                                      <property name="font">
                                       <font>
+                                       <family>Times New Roman</family>
                                        <pointsize>12</pointsize>
+                                       <weight>50</weight>
+                                       <italic>false</italic>
+                                       <bold>false</bold>
                                       </font>
                                      </property>
                                     </widget>
@@ -3317,7 +3473,11 @@ padding: 5px;
                                     <widget class="QLineEdit" name="lineEdit_roomstatus">
                                      <property name="font">
                                       <font>
+                                       <family>Times New Roman</family>
                                        <pointsize>12</pointsize>
+                                       <weight>50</weight>
+                                       <italic>false</italic>
+                                       <bold>false</bold>
                                       </font>
                                      </property>
                                     </widget>
@@ -3353,8 +3513,10 @@ padding: 5px;
                                  <widget class="QRadioButton" name="radioButton_approvedbymanager">
                                   <property name="font">
                                    <font>
-                                    <pointsize>10</pointsize>
+                                    <family>Times New Roman</family>
+                                    <pointsize>-1</pointsize>
                                     <weight>75</weight>
+                                    <italic>false</italic>
                                     <bold>true</bold>
                                    </font>
                                   </property>
@@ -3382,8 +3544,10 @@ padding: 5px;
                                  <widget class="QPushButton" name="pushButton_createroom">
                                   <property name="font">
                                    <font>
-                                    <pointsize>10</pointsize>
+                                    <family>Times New Roman</family>
+                                    <pointsize>-1</pointsize>
                                     <weight>75</weight>
+                                    <italic>false</italic>
                                     <bold>true</bold>
                                    </font>
                                   </property>
@@ -3403,8 +3567,10 @@ padding: 5px;
                                  <widget class="QPushButton" name="pushButton_cancel_createnewroom">
                                   <property name="font">
                                    <font>
-                                    <pointsize>10</pointsize>
+                                    <family>Times New Roman</family>
+                                    <pointsize>-1</pointsize>
                                     <weight>75</weight>
+                                    <italic>false</italic>
                                     <bold>true</bold>
                                    </font>
                                   </property>
@@ -3512,8 +3678,10 @@ padding: 5px;
                               <widget class="QLabel" name="label">
                                <property name="font">
                                 <font>
-                                 <pointsize>16</pointsize>
+                                 <family>Times New Roman</family>
+                                 <pointsize>-1</pointsize>
                                  <weight>75</weight>
+                                 <italic>false</italic>
                                  <bold>true</bold>
                                 </font>
                                </property>
@@ -3795,8 +3963,10 @@ padding: 5px;
                                           <widget class="QLabel" name="label_2">
                                            <property name="font">
                                             <font>
-                                             <pointsize>14</pointsize>
+                                             <family>Times New Roman</family>
+                                             <pointsize>-1</pointsize>
                                              <weight>75</weight>
+                                             <italic>false</italic>
                                              <bold>true</bold>
                                             </font>
                                            </property>
@@ -3824,7 +3994,13 @@ padding: 5px;
                                           <number>100</number>
                                          </property>
                                          <item>
-                                          <widget class="QLineEdit" name="lineEdit_name_2"/>
+                                          <widget class="QLineEdit" name="lineEdit_name_2">
+                                           <property name="font">
+                                            <font>
+                                             <pointsize>-1</pointsize>
+                                            </font>
+                                           </property>
+                                          </widget>
                                          </item>
                                         </layout>
                                        </widget>
@@ -3857,8 +4033,10 @@ padding: 5px;
                                           <widget class="QLabel" name="label_6">
                                            <property name="font">
                                             <font>
-                                             <pointsize>14</pointsize>
+                                             <family>Times New Roman</family>
+                                             <pointsize>-1</pointsize>
                                              <weight>75</weight>
+                                             <italic>false</italic>
                                              <bold>true</bold>
                                             </font>
                                            </property>
@@ -3988,8 +4166,10 @@ padding: 5px;
                                           <widget class="QLabel" name="label_7">
                                            <property name="font">
                                             <font>
-                                             <pointsize>14</pointsize>
+                                             <family>Times New Roman</family>
+                                             <pointsize>-1</pointsize>
                                              <weight>75</weight>
+                                             <italic>false</italic>
                                              <bold>true</bold>
                                             </font>
                                            </property>
@@ -4149,8 +4329,10 @@ padding: 5px;
                                               </property>
                                               <property name="font">
                                                <font>
-                                                <pointsize>14</pointsize>
+                                                <family>Times New Roman</family>
+                                                <pointsize>-1</pointsize>
                                                 <weight>75</weight>
+                                                <italic>false</italic>
                                                 <bold>true</bold>
                                                </font>
                                               </property>
@@ -4210,8 +4392,10 @@ padding: 5px;
                                            </property>
                                            <property name="font">
                                             <font>
-                                             <pointsize>14</pointsize>
+                                             <family>Times New Roman</family>
+                                             <pointsize>-1</pointsize>
                                              <weight>75</weight>
+                                             <italic>false</italic>
                                              <bold>true</bold>
                                             </font>
                                            </property>
@@ -4304,8 +4488,10 @@ padding: 5px;
                                           <widget class="QPushButton" name="pushButton_create">
                                            <property name="font">
                                             <font>
-                                             <pointsize>10</pointsize>
+                                             <family>Times New Roman</family>
+                                             <pointsize>-1</pointsize>
                                              <weight>75</weight>
+                                             <italic>false</italic>
                                              <bold>true</bold>
                                             </font>
                                            </property>
@@ -4331,7 +4517,10 @@ padding: 5px;
                                           <widget class="QLabel" name="label_10">
                                            <property name="font">
                                             <font>
-                                             <pointsize>26</pointsize>
+                                             <family>Poppins,sans-serif</family>
+                                             <weight>50</weight>
+                                             <italic>false</italic>
+                                             <bold>false</bold>
                                             </font>
                                            </property>
                                            <property name="text">
@@ -4343,8 +4532,10 @@ padding: 5px;
                                           <widget class="QPushButton" name="pushButton_reset">
                                            <property name="font">
                                             <font>
-                                             <pointsize>10</pointsize>
+                                             <family>Times New Roman</family>
+                                             <pointsize>-1</pointsize>
                                              <weight>75</weight>
+                                             <italic>false</italic>
                                              <bold>true</bold>
                                             </font>
                                            </property>
@@ -4370,7 +4561,10 @@ padding: 5px;
                                           <widget class="QLabel" name="label_22">
                                            <property name="font">
                                             <font>
-                                             <pointsize>26</pointsize>
+                                             <family>Poppins,sans-serif</family>
+                                             <weight>50</weight>
+                                             <italic>false</italic>
+                                             <bold>false</bold>
                                             </font>
                                            </property>
                                            <property name="text">
@@ -4382,8 +4576,10 @@ padding: 5px;
                                           <widget class="QPushButton" name="pushButton_cancel_createnewpromotion">
                                            <property name="font">
                                             <font>
-                                             <pointsize>10</pointsize>
+                                             <family>Times New Roman</family>
+                                             <pointsize>-1</pointsize>
                                              <weight>75</weight>
+                                             <italic>false</italic>
                                              <bold>true</bold>
                                             </font>
                                            </property>
@@ -4732,7 +4928,7 @@ padding: 5px;
                        <item>
                         <widget class="QStackedWidget" name="stackedWidget_3">
                          <property name="currentIndex">
-                          <number>1</number>
+                          <number>0</number>
                          </property>
                          <widget class="QWidget" name="page">
                           <layout class="QVBoxLayout" name="verticalLayout_69">
@@ -4895,8 +5091,10 @@ padding: 5px;
                                         <widget class="QLabel" name="label_invoiceid">
                                          <property name="font">
                                           <font>
-                                           <pointsize>12</pointsize>
+                                           <family>Times New Roman</family>
+                                           <pointsize>-1</pointsize>
                                            <weight>75</weight>
+                                           <italic>false</italic>
                                            <bold>true</bold>
                                           </font>
                                          </property>
@@ -4936,8 +5134,10 @@ padding: 5px;
                                         <widget class="QLabel" name="label_invoicedate">
                                          <property name="font">
                                           <font>
-                                           <pointsize>12</pointsize>
+                                           <family>Times New Roman</family>
+                                           <pointsize>-1</pointsize>
                                            <weight>75</weight>
+                                           <italic>false</italic>
                                            <bold>true</bold>
                                           </font>
                                          </property>
@@ -4977,8 +5177,10 @@ padding: 5px;
                                         <widget class="QLabel" name="label_taxamount">
                                          <property name="font">
                                           <font>
-                                           <pointsize>12</pointsize>
+                                           <family>Times New Roman</family>
+                                           <pointsize>-1</pointsize>
                                            <weight>75</weight>
+                                           <italic>false</italic>
                                            <bold>true</bold>
                                           </font>
                                          </property>
@@ -5018,8 +5220,10 @@ padding: 5px;
                                         <widget class="QLabel" name="label_discountamount">
                                          <property name="font">
                                           <font>
-                                           <pointsize>12</pointsize>
+                                           <family>Times New Roman</family>
+                                           <pointsize>-1</pointsize>
                                            <weight>75</weight>
+                                           <italic>false</italic>
                                            <bold>true</bold>
                                           </font>
                                          </property>
@@ -5059,8 +5263,10 @@ padding: 5px;
                                         <widget class="QLabel" name="label_totalpayable">
                                          <property name="font">
                                           <font>
-                                           <pointsize>12</pointsize>
+                                           <family>Times New Roman</family>
+                                           <pointsize>-1</pointsize>
                                            <weight>75</weight>
+                                           <italic>false</italic>
                                            <bold>true</bold>
                                           </font>
                                          </property>
@@ -5127,7 +5333,11 @@ padding: 5px;
                                         <widget class="QLineEdit" name="lineEdit_invoiceid">
                                          <property name="font">
                                           <font>
+                                           <family>Times New Roman</family>
                                            <pointsize>12</pointsize>
+                                           <weight>50</weight>
+                                           <italic>false</italic>
+                                           <bold>false</bold>
                                           </font>
                                          </property>
                                         </widget>
@@ -5163,7 +5373,11 @@ padding: 5px;
                                         <widget class="QLineEdit" name="lineEdit_invoicedate">
                                          <property name="font">
                                           <font>
+                                           <family>Times New Roman</family>
                                            <pointsize>12</pointsize>
+                                           <weight>50</weight>
+                                           <italic>false</italic>
+                                           <bold>false</bold>
                                           </font>
                                          </property>
                                         </widget>
@@ -5199,7 +5413,11 @@ padding: 5px;
                                         <widget class="QLineEdit" name="lineEdit_taxamount">
                                          <property name="font">
                                           <font>
+                                           <family>Times New Roman</family>
                                            <pointsize>12</pointsize>
+                                           <weight>50</weight>
+                                           <italic>false</italic>
+                                           <bold>false</bold>
                                           </font>
                                          </property>
                                         </widget>
@@ -5235,7 +5453,11 @@ padding: 5px;
                                         <widget class="QLineEdit" name="lineEdit_discountamount">
                                          <property name="font">
                                           <font>
+                                           <family>Times New Roman</family>
                                            <pointsize>12</pointsize>
+                                           <weight>50</weight>
+                                           <italic>false</italic>
+                                           <bold>false</bold>
                                           </font>
                                          </property>
                                         </widget>
@@ -5271,7 +5493,11 @@ padding: 5px;
                                         <widget class="QLineEdit" name="lineEdit_totalpayable">
                                          <property name="font">
                                           <font>
+                                           <family>Times New Roman</family>
                                            <pointsize>12</pointsize>
+                                           <weight>50</weight>
+                                           <italic>false</italic>
+                                           <bold>false</bold>
                                           </font>
                                          </property>
                                         </widget>
@@ -5307,8 +5533,10 @@ padding: 5px;
                                      <widget class="QRadioButton" name="radioButton_approvedbymanager_2">
                                       <property name="font">
                                        <font>
-                                        <pointsize>10</pointsize>
+                                        <family>Times New Roman</family>
+                                        <pointsize>-1</pointsize>
                                         <weight>75</weight>
+                                        <italic>false</italic>
                                         <bold>true</bold>
                                        </font>
                                       </property>
@@ -5346,8 +5574,10 @@ padding: 5px;
                                      <widget class="QPushButton" name="pushButton_createinvoice">
                                       <property name="font">
                                        <font>
-                                        <pointsize>10</pointsize>
+                                        <family>Times New Roman</family>
+                                        <pointsize>-1</pointsize>
                                         <weight>75</weight>
+                                        <italic>false</italic>
                                         <bold>true</bold>
                                        </font>
                                       </property>
@@ -5367,9 +5597,10 @@ padding: 5px;
                                      <widget class="QPushButton" name="pushButton_cancel_invoicemanagement">
                                       <property name="font">
                                        <font>
-                                        <pointsize>10</pointsize>
-                                        <weight>75</weight>
-                                        <bold>true</bold>
+                                        <family>Poppins,sans-serif</family>
+                                        <weight>50</weight>
+                                        <italic>false</italic>
+                                        <bold>false</bold>
                                        </font>
                                       </property>
                                       <property name="cursor">
@@ -5451,8 +5682,10 @@ padding: 5px;
            <widget class="QLabel" name="label_3">
             <property name="font">
              <font>
-              <pointsize>12</pointsize>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
               <weight>75</weight>
+              <italic>false</italic>
               <bold>true</bold>
              </font>
             </property>
@@ -5468,8 +5701,10 @@ padding: 5px;
            <widget class="QLabel" name="label_4">
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <family>Times New Roman</family>
+              <pointsize>-1</pointsize>
               <weight>75</weight>
+              <italic>false</italic>
               <bold>true</bold>
              </font>
             </property>
@@ -5513,7 +5748,10 @@ padding: 5px;
            <widget class="QPushButton" name="pushButton_myprofile">
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <family>Poppins,sans-serif</family>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
              </font>
             </property>
             <property name="cursor">
@@ -5532,7 +5770,10 @@ padding: 5px;
            <widget class="QPushButton" name="pushButton_logout">
             <property name="font">
              <font>
-              <pointsize>10</pointsize>
+              <family>Poppins,sans-serif</family>
+              <weight>50</weight>
+              <italic>false</italic>
+              <bold>false</bold>
              </font>
             </property>
             <property name="cursor">

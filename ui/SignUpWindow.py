@@ -15,7 +15,6 @@ class Ui_MainWindow(object):
         MainWindow.resize(1216, 866)
         font = QtGui.QFont()
         font.setBold(True)
-        font.setWeight(75)
         MainWindow.setFont(font)
         self.centralwidget = QtWidgets.QWidget(parent=MainWindow)
         self.centralwidget.setObjectName("centralwidget")
@@ -23,7 +22,6 @@ class Ui_MainWindow(object):
         self.label.setGeometry(QtCore.QRect(0, 0, 1221, 831))
         font = QtGui.QFont()
         font.setBold(True)
-        font.setWeight(75)
         self.label.setFont(font)
         self.label.setText("")
         self.label.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/image/SIGN UP.png"))
@@ -139,6 +137,7 @@ class Ui_MainWindow(object):
 "    font-size: 16px;\n"
 "}\n"
 "")
+        self.lineEditPassword.setEchoMode(QtWidgets.QLineEdit.EchoMode.Password)
         self.lineEditPassword.setObjectName("lineEditPassword")
         self.pushButtonGetStarted = QtWidgets.QPushButton(parent=self.centralwidget)
         self.pushButtonGetStarted.setGeometry(QtCore.QRect(390, 730, 411, 61))
@@ -159,6 +158,7 @@ class Ui_MainWindow(object):
         self.checkBoxIAccept.setGeometry(QtCore.QRect(330, 670, 211, 31))
         font = QtGui.QFont()
         font.setPointSize(12)
+        font.setBold(True)
         self.checkBoxIAccept.setFont(font)
         self.checkBoxIAccept.setText("")
         icon4 = QtGui.QIcon()
@@ -190,7 +190,6 @@ class Ui_MainWindow(object):
         font.setFamily("Nirmala UI")
         font.setPointSize(11)
         font.setBold(False)
-        font.setWeight(50)
         self.label_4.setFont(font)
         self.label_4.setText("")
         self.label_4.setPixmap(QtGui.QPixmap("C:\\Users\\ADMIN\\PycharmProjects\\ProjectKTLT\\ui\\../assets/icons/and.jpg"))
@@ -219,7 +218,6 @@ class Ui_MainWindow(object):
         font.setFamily("Nirmala")
         font.setPointSize(-1)
         font.setBold(True)
-        font.setWeight(75)
         self.radioButtonTrial.setFont(font)
         self.radioButtonTrial.setStyleSheet("QRadioButton {\n"
 "    font-family: \"Nirmala\";\n"
@@ -234,7 +232,6 @@ class Ui_MainWindow(object):
         font.setFamily("Nirmala")
         font.setPointSize(-1)
         font.setBold(True)
-        font.setWeight(75)
         self.radioButtonStandard.setFont(font)
         self.radioButtonStandard.setStyleSheet("QRadioButton {\n"
 "    font-family: \"Nirmala\";\n"
@@ -249,7 +246,6 @@ class Ui_MainWindow(object):
         font.setFamily("Nirmala")
         font.setPointSize(-1)
         font.setBold(True)
-        font.setWeight(75)
         self.radioButtonVip.setFont(font)
         self.radioButtonVip.setStyleSheet("QRadioButton {\n"
 "    font-family: \"Nirmala\";\n"
@@ -262,6 +258,7 @@ class Ui_MainWindow(object):
         self.pushButtonExit.setGeometry(QtCore.QRect(850, 110, 81, 81))
         font = QtGui.QFont()
         font.setPointSize(20)
+        font.setBold(True)
         self.pushButtonExit.setFont(font)
         self.pushButtonExit.setStyleSheet("QPushButton {\n"
 "    background-color: transparent;\n"
@@ -276,7 +273,7 @@ class Ui_MainWindow(object):
         self.pushButtonExit.setObjectName("pushButtonExit")
         MainWindow.setCentralWidget(self.centralwidget)
         self.menubar = QtWidgets.QMenuBar(parent=MainWindow)
-        self.menubar.setGeometry(QtCore.QRect(0, 0, 1216, 21))
+        self.menubar.setGeometry(QtCore.QRect(0, 0, 1216, 33))
         self.menubar.setObjectName("menubar")
         MainWindow.setMenuBar(self.menubar)
         self.statusbar = QtWidgets.QStatusBar(parent=MainWindow)

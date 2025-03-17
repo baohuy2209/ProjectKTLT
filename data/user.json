@@ -12,16 +12,7 @@
         "salary": 50000,
         "work_shift": "Monday, Tuesday, Wednesday",
         "hired_date": "02/01/2025",
-        "room_id": [
-            "oasis10",
-            "mutiny4",
-            "mutiny1",
-            "genii6",
-            "genii2",
-            "genii5",
-            "genii9",
-            "genii8"
-        ]
+        "room_id": []
     },
     {
         "userid": "user2",
@@ -39,18 +30,9 @@
         "year_of_experience": 10,
         "billing_rate": 4.3,
         "room_id": [
-            "mutiny9",
-            "oasis10",
-            "mutiny4",
-            "mutiny1",
             "genii6",
-            "genii2",
-            "genii5",
             "genii9",
-            "genii8",
-            "catharsis7",
-            "mutiny8",
-            "mutiny7"
+            "genii1"
         ]
     },
     {
@@ -67,13 +49,7 @@
         "work_shift": "Thursday, Saturday, Sunday",
         "hired_date": "21/03/2025",
         "customer_id": [
-            "user4",
-            "user4",
-            "user4",
-            "user5",
-            "user5",
-            "user4",
-            "user9"
+            "user4"
         ]
     },
     {
@@ -85,7 +61,7 @@
         "phone": "0348403449",
         "address": "Dak Lak",
         "role": "Customer",
-        "loyalty_points": 4,
+        "loyalty_points": 5,
         "customer_type": "Trial",
         "trial_duration": 2,
         "service_limitations": []
@@ -117,10 +93,7 @@
         "salary": 50000,
         "work_shift": "Monday, Tuesday, Wednesday",
         "hired_date": "02/01/2025",
-        "room_id": [
-            "mutiny9",
-            "catharsis7"
-        ]
+        "room_id": []
     },
     {
         "userid": "user7",
@@ -136,8 +109,9 @@
         "work_shift": "Part-time",
         "hired_date": "12/04/2023",
         "room_id": [
-            "mutiny8",
-            "mutiny7"
+            "genii6",
+            "genii9",
+            "genii1"
         ]
     },
     {
@@ -164,6 +138,37 @@
         "address": "Tp. Ho Chi Minh",
         "role": "Customer",
         "loyalty_points": 3,
+        "customer_type": "Vip",
+        "free_services": [
+            "3 times free message service",
+            "1 time free psychological counseling service"
+        ]
+    },
+    {
+        "userid": "user10",
+        "name": "Nguyen Bao Thi",
+        "username": "baothi12",
+        "password": "78",
+        "email": "baothi@gmail.com",
+        "phone": "0345878926",
+        "address": "Binh Duong",
+        "role": "Employee",
+        "position": "Customer service staff",
+        "salary": 20000,
+        "work_shift": "Part-time",
+        "hired_date": "20/8/2024",
+        "customer_id": []
+    },
+    {
+        "userid": "user11",
+        "name": "Nguyen Gia Huy",
+        "username": "giahuy12",
+        "password": "123456",
+        "email": "giahuy@gmail.com",
+        "phone": "0344564635",
+        "address": "Dak Lak",
+        "role": "Customer",
+        "loyalty_points": 0,
         "customer_type": "Vip",
         "free_services": [
             "3 times free message service",
