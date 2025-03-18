@@ -217,13 +217,13 @@ class AdminWindowExt(Ui_MainWindow):
     def on_page_changed(self, index):
         current_widget = self.stackedWidget.widget(index)
         if current_widget == self.page_1:
-            self.populate_room_fields("Standard Room", "Single", "2", "100", "Available")
+            self.populate_room_fields("Mutiny 1", "Mutiny", "1", "32000", "available")
         elif current_widget == self.page_4:
-            self.populate_room_fields("Deluxe Room", "Double", "4", "200", "Occupied")
+            self.populate_room_fields("Catharsis 1", "Catharsis", "1", "33000", "available")
         elif current_widget == self.page_5:
-            self.populate_room_fields("Suite", "Luxury", "6", "500", "Under Maintenance")
+            self.populate_room_fields("Genii 1", "Genii", "1", "34000", "available")
         elif current_widget == self.page_6:
-            self.populate_room_fields("Meeting Room", "Conference", "10", "300", "Reserved")
+            self.populate_room_fields("Oasis 1", "Oasis", "1", "29000", "available")
 
     def next_page(self, event):
         current_index = self.stackedWidget.currentIndex()
