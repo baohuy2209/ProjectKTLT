@@ -32,7 +32,9 @@
         "room_id": [
             "genii6",
             "genii9",
-            "genii1"
+            "genii1",
+            "oasis6",
+            "oasis8"
         ]
     },
     {
@@ -49,7 +51,8 @@
         "work_shift": "Thursday, Saturday, Sunday",
         "hired_date": "21/03/2025",
         "customer_id": [
-            "user4"
+            "user4",
+            "user5"
         ]
     },
     {
@@ -75,7 +78,7 @@
         "phone": "0347845504",
         "address": "Binh Dinh",
         "role": "Customer",
-        "loyalty_points": 15,
+        "loyalty_points": 17,
         "customer_type": "Standard",
         "reward_points": 0,
         "discount_rate": 0
@@ -111,7 +114,9 @@
         "room_id": [
             "genii6",
             "genii9",
-            "genii1"
+            "genii1",
+            "oasis6",
+            "oasis8"
         ]
     },
     {

@@ -154,7 +154,7 @@
         "name": "Oasis 6",
         "description": "Private, quiet environment, suitable for introverts and gentle.",
         "picture": "",
-        "status": "available",
+        "status": "full",
         "unit_price": 29000,
         "room_type": "Oasis",
         "journal_customization": true
@@ -174,7 +174,7 @@
         "name": "Oasis 8",
         "description": "Private, quiet environment, suitable for introverts and gentle.",
         "picture": "",
-        "status": "available",
+        "status": "full",
         "unit_price": 29000,
         "room_type": "Oasis",
         "journal_customization": true

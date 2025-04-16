@@ -95,5 +95,16 @@
         "quantity": 3,
         "unit_price": 34000,
         "total_price": 2448000.0
+    },
+    {
+        "booking_details_id": 10,
+        "booking_id": 10,
+        "room_id": [
+            "oasis6",
+            "oasis8"
+        ],
+        "quantity": 2,
+        "unit_price": 29000,
+        "total_price": 1392000.0
     }
 ]
